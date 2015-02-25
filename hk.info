@@ -1,0 +1,218 @@
+; Packaging information for hk
+name = "hk"
+old_short_name = Bear
+description = "Install Profile for Herbert & Kohlmeyer"
+exclusive = "1"
+core = "7.x"
+; ----------
+; Abhängigkeiten
+; ----------
+; Administration
+dependencies[] = admin_menu
+dependencies[] = admin_menu_toolbar
+dependencies[] = admin_views
+dependencies[] = coffee
+dependencies[] = module_filter
+; Bear
+dependencies[] = bear_hunt
+; CRM Core
+dependencies[] = crm_core
+dependencies[] = crm_core_activity
+dependencies[] = crm_core_activity_ui
+dependencies[] = crm_core_contact
+dependencies[] = crm_core_contact_ui
+dependencies[] = crm_core_default_matching_engine
+dependencies[] = crm_core_match
+dependencies[] = crm_core_profile
+dependencies[] = crm_core_relationship
+dependencies[] = crm_core_relationship_ui
+dependencies[] = crm_core_report
+dependencies[] = crm_core_ui
+dependencies[] = crm_core_user_sync
+; Chaos tool suite
+dependencies[] = ctools
+dependencies[] = page_manager
+dependencies[] = page_manager_templates
+dependencies[] = views_content
+; Core
+dependencies[] = block
+dependencies[] = comment
+dependencies[] = contextual
+dependencies[] = field
+dependencies[] = field_sql_storage
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = filter
+dependencies[] = help
+dependencies[] = image
+dependencies[] = list
+dependencies[] = locale
+dependencies[] = menu
+dependencies[] = node
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = search
+dependencies[] = system
+dependencies[] = taxonomy
+dependencies[] = text
+dependencies[] = translation
+dependencies[] = user
+; Date/Time
+dependencies[] = date
+dependencies[] = date_api
+dependencies[] = date_popup
+dependencies[] = date_views
+; Development
+dependencies[] = devel
+dependencies[] = devel_generate
+dependencies[] = devel_image_provider
+dependencies[] = profiler_builder
+; Display Suite
+dependencies[] = ds
+dependencies[] = ds_extras
+dependencies[] = ds_forms
+dependencies[] = ds_ui
+; Feeds
+dependencies[] = feeds
+dependencies[] = feeds_tamper
+dependencies[] = feeds_tamper_ui
+dependencies[] = feeds_ui
+dependencies[] = feeds_xpathparser
+; Fields
+dependencies[] = addressfield
+dependencies[] = computed_field
+dependencies[] = conditional_fields
+dependencies[] = email
+dependencies[] = entityreference
+dependencies[] = field_group
+dependencies[] = geofield
+dependencies[] = link
+dependencies[] = name
+dependencies[] = node_reference
+dependencies[] = nodereferrer
+dependencies[] = phone
+dependencies[] = references
+dependencies[] = viewfield
+; Flags
+dependencies[] = flag
+dependencies[] = flag_actions
+dependencies[] = flag_bookmark
+; FlexSlider
+dependencies[] = flexslider
+dependencies[] = flexslider_fields
+dependencies[] = flexslider_views_slideshow
+; Image
+dependencies[] = manualcrop
+dependencies[] = smartcrop
+; Media
+dependencies[] = file_entity
+dependencies[] = media
+dependencies[] = media_bulk_upload
+dependencies[] = media_internet
+dependencies[] = media_wysiwyg
+dependencies[] = media_youtube
+dependencies[] = plupload
+; Message
+dependencies[] = message
+; Migration
+dependencies[] = migrate
+dependencies[] = migrate_d2d
+dependencies[] = migrate_d2d_ui
+dependencies[] = migrate_ui
+; Multilanguage
+dependencies[] = translation_helpers
+; Multilingual - Entity Translation
+dependencies[] = entity_translation
+dependencies[] = entity_translation_i18n_menu
+; Multilingual - Internationalization
+dependencies[] = i18n
+dependencies[] = i18n_menu
+dependencies[] = i18n_node
+dependencies[] = i18n_path
+dependencies[] = i18n_string
+dependencies[] = i18n_taxonomy
+dependencies[] = i18n_translation
+dependencies[] = i18n_variable
+; Other
+dependencies[] = breadcrumbs_by_path
+dependencies[] = breakpoints
+dependencies[] = colorbox
+dependencies[] = diff
+dependencies[] = entity
+dependencies[] = entity_view_mode
+dependencies[] = equalheights
+dependencies[] = geocoder
+dependencies[] = geophp
+dependencies[] = habitat
+dependencies[] = job_scheduler
+dependencies[] = leaflet
+dependencies[] = leaflet_more_maps
+dependencies[] = libraries
+dependencies[] = linkit
+dependencies[] = menu_block
+dependencies[] = multiform
+dependencies[] = pathauto
+dependencies[] = redirect
+dependencies[] = robotstxt
+dependencies[] = strongarm
+dependencies[] = styleguide
+dependencies[] = token
+dependencies[] = transliteration
+; Panels
+dependencies[] = panels
+; Path management
+dependencies[] = globalredirect
+; Performance and scalability
+dependencies[] = entitycache
+; Picture
+dependencies[] = flexslider_picture
+dependencies[] = picture
+; RedHen
+dependencies[] = redhen_fields
+; Relation
+dependencies[] = relation
+dependencies[] = relation_endpoint
+dependencies[] = relation_feeds
+dependencies[] = relation_ui
+; Search
+dependencies[] = search_api
+dependencies[] = search_api_autocomplete
+dependencies[] = search_api_db
+dependencies[] = search_api_facetapi
+dependencies[] = search_api_override
+dependencies[] = search_api_ranges
+dependencies[] = search_api_solr
+dependencies[] = search_api_sorts
+dependencies[] = search_api_views
+; Search Toolkit
+dependencies[] = current_search
+dependencies[] = facetapi
+dependencies[] = facetapi_bonus
+dependencies[] = facetapi_pretty_paths
+dependencies[] = facetapi_tagcloud
+; User interface
+dependencies[] = content_menu
+dependencies[] = jquery_update
+dependencies[] = wysiwyg
+; Variable
+dependencies[] = variable
+dependencies[] = variable_realm
+dependencies[] = variable_store
+; Views
+dependencies[] = views
+dependencies[] = views_bulk_operations
+dependencies[] = views_fluid_grid
+dependencies[] = views_slideshow
+dependencies[] = views_ui
+; XML sitemap
+dependencies[] = xmlsitemap
+; Features
+dependencies[] = features
+dependencies[] = bear_habitat
+dependencies[] = bear_habitat_local
+dependencies[] = bear_necessities
+dependencies[] = bear_show
+dependencies[] = bear_user
+dependencies[] = hk_content_types
+
