@@ -286,6 +286,13 @@ projects[hk_ct_apart][download][url] = "https://github.com/heliogabal/hk_ct_apar
 projects[hk_ct_apart][subdir] = "features"
 projects[hk_ct_apart][options][working-copy] = TRUE
 
+;hk_exposed_filters
+projects[hk_exposed_filters][type] = module
+projects[hk_exposed_filters][download][type] = "git"
+projects[hk_exposed_filters][download][url] = "https://github.com/heliogabal/hk_exposed_filters.git"
+projects[hk_exposed_filters][subdir] = "custom"
+projects[hk_exposed_filters][options][working-copy] = TRUE
+
 ; +++++ Themes +++++
 
 ; bear_skin
