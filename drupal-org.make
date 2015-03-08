@@ -119,13 +119,17 @@ projects[entity_translation][version] = "1.0-beta3"
 
 projects[i18n][version] = "1.12"
 
-projects[hreflang][version] = "1.2"
+projects[i18n_views][version] = "1.12"
+
+projects[hreflang][version] = "3.x-dev"
 
 projects[breadcrumbs_by_path][version] = "1.0-alpha12"
 
 projects[breakpoints][version] = "1.3"
 
 projects[colorbox][version] = "2.8"
+
+projects[colorbox_node][version] = "3.4"
 
 projects[diff][version] = "3.2"
 
@@ -147,15 +151,27 @@ projects[geophp][version] = "1.7"
 
 projects[habitat][version] = "1.0"
 
+projects[icon][version] = "1.0-beta5"
+
+projects[ip_geoloc][version] = "1.26"
+
 projects[job_scheduler][version] = "2.0-alpha3"
 
 projects[leaflet][version] = "1.1"
+
+projects[leaflet_mapbox][version] = "1.2"
+
+projects[leaflet_markercluster][version] = "1.2"
 
 projects[leaflet_more_maps][version] = "1.10"
 
 projects[libraries][version] = "2.2"
 
 projects[linkit][version] = "2.x-dev"
+
+projects[mailsystem][version] = "2.34"
+
+projects[mandrill][version] = "2.0"
 
 projects[menu_block][version] = "2.4"
 
@@ -167,9 +183,17 @@ projects[redirect][version] = "1.x-dev"
 
 projects[robotstxt][version] = "1.2"
 
+projects[rules][version] = "2.7"
+
 projects[strongarm][version] = "2.0"
 
 projects[styleguide][version] = "1.1"
+
+projects[taxonomy_manager][version] = "1.0"
+
+projects[title][version] = "1.0-alpha7"
+
+projects[translation_table][version] = "1.0-beta1"
 
 projects[token][version] = "1.5"
 
@@ -192,6 +216,8 @@ projects[search_api][version] = "1.13"
 projects[search_api_autocomplete][version] = "1.1"
 
 projects[search_api_db][version] = "1.4"
+
+projects[search_api_location][version] = "2.0-beta2"
 
 projects[search_api_override][version] = "1.0-rc1"
 
@@ -228,11 +254,17 @@ projects[views][patch][] = "https://www.drupal.org/files/issues/aggregation_not_
 #Geofield Search API bug
 https://www.drupal.org/files/issues/2115269-views_handler_field_field_get_value_fatal_error_clone_method_called_on_non_object-5.patch
 
-projects[views_selective_filters][version] = 1.3
+projects[views_accelerator][version] = "1.0-alpha2"
+
+projects[views_filters_selective][version] = 1.3
 
 projects[views_bulk_operations][version] = "3.2"
 
+projects[views_flag_refresh][version] = "1.3"
+
 projects[views_fluid_grid][version] = "3.0"
+
+projects[views_pdf][version] = "1.4"
 
 projects[views_slideshow][version] = "3.1"
 
@@ -265,6 +297,10 @@ projects[bear_skin][subdir] = ""
 projects[zen][type] = "theme"
 projects[zen][version] = "5.5"
 projects[zen][subdir] = ""
+
+projects[adminimal_theme][type] = "theme"
+projects[adminimal_theme][version] = "1.20"
+projects[adminimal_theme][subdir] = ""
 
 ; +++++ Libraries +++++
 
