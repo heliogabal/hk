@@ -256,7 +256,7 @@ https://www.drupal.org/files/issues/2115269-views_handler_field_field_get_value_
 
 projects[views_accelerator][version] = "1.0-alpha2"
 
-projects[views_filters_selective][version] = 1.3
+projects[views_selective_filters][version] = 1.3
 
 projects[views_bulk_operations][version] = "3.2"
 
