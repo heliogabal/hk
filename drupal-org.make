@@ -43,8 +43,6 @@ projects[ds][version] = "2.7"
 
 projects[features][version] = "2.2"
 
-projects[hk_content_types][version] = "1.2"
-
 projects[feeds][version] = "2.0-alpha8"
 
 projects[feeds_tamper][version] = "1.0"
@@ -215,6 +213,23 @@ projects[views_fluid_grid][version] = "3.0"
 projects[views_slideshow][version] = "3.1"
 
 projects[xmlsitemap][version] = "2.0"
+
+; +++++ Features +++++
+projects[hk_content_types][version] = "1.2"
+
+;hk_content_types
+projects[hk_content_types][type] = module
+projects[hk_content_types][download][type] = "git"
+projects[hk_content_types][download][url] = "https://github.com/heliogabal/hk_content_types.git"
+projects[hk_content_types][subdir] = "features"
+projects[hk_content_types][options][working-copy] = TRUE
+
+;hk_ct_apart
+projects[hk_ct_apart][type] = module
+projects[hk_ct_apart][download][type] = "git"
+projects[hk_ct_apart][download][url] = "https://github.com/heliogabal/hk_ct_apart.git"
+projects[hk_ct_apart][subdir] = "features"
+projects[hk_ct_apart][options][working-copy] = TRUE
 
 ; +++++ Themes +++++
 
