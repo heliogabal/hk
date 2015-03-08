@@ -11,6 +11,12 @@ projects[admin_menu][version] = "3.0-rc4"
 
 projects[admin_views][version] = "1.3"
 
+projects[adminimal_admin_menu][version] = "1.5"
+
+projects[advagg][version] = "2.7"
+
+projects[block_class][version] = "2.1"
+
 projects[coffee][version] = "2.2"
 
 projects[module_filter][version] = "2.0-alpha2"
@@ -18,6 +24,8 @@ projects[module_filter][version] = "2.0-alpha2"
 projects[bear][version] = "1.x-dev"
 
 projects[bear_hunt][version] = "1.x-dev"
+
+projects[bear_necessities][version] = "1.7-alpha1"
 
 projects[bear_show][version] = "1.x-dev"
 
@@ -49,11 +57,17 @@ projects[feeds_tamper][version] = "1.0"
 
 projects[feeds_xpathparser][version] = "1.0"
 
+projects[fpa][version] = "2.6"
+
 projects[addressfield][version] = "1.0-rc1"
+
+projects[compact_forms][version] = "1.0"
 
 projects[computed_field][version] = "1.0"
 
 projects[conditional_fields][version] = "3.0-alpha1"
+
+projects[dhtml_menu][version] = "1.x-dev"
 
 projects[email][version] = "1.3"
 
@@ -117,7 +131,13 @@ projects[diff][version] = "3.2"
 
 projects[entity][version] = "1.5"
 
+projects[entity2text][version] = "1.0-alpha2"
+
 projects[entity_view_mode][version] = "1.0-rc1"
+
+projects[entityform][version] = "2.0-rc1"
+
+projects[entity_rules][version] = "1.0-alpha4"
 
 projects[equalheights][version] = "2.4"
 
@@ -143,7 +163,7 @@ projects[multiform][version] = "1.1"
 
 projects[pathauto][version] = "1.x-dev"
 
-projects[redirect][version] = "1.0-rc1"
+projects[redirect][version] = "1.x-dev"
 
 projects[robotstxt][version] = "1.2"
 
@@ -161,7 +181,7 @@ projects[globalredirect][version] = "1.5"
 
 projects[entitycache][version] = "1.2"
 
-projects[picture][version] = "2.7"
+projects[picture][version] = "2.9"
 
 projects[redhen][version] = "1.8"
 
@@ -188,6 +208,10 @@ projects[facetapi_bonus][version] = "1.1"
 projects[facetapi_pretty_paths][version] = "1.1"
 
 projects[facetapi_tagcloud][version] = "1.0-beta1"
+
+projects[facetapi_select][version] = "1.x-dev"
+
+projects[fontello][version] = "1.0"
 
 projects[content_menu][version] = "1.0"
 
