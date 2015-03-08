@@ -121,7 +121,7 @@ projects[i18n][version] = "1.12"
 
 projects[i18nviews][version] = "3.x-dev"
 
-projects[hreflang][version] = "3.x-dev"
+projects[hreflang][version] = "1.2"
 
 projects[breadcrumbs_by_path][version] = "1.0-alpha12"
 
