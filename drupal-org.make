@@ -119,7 +119,7 @@ projects[entity_translation][version] = "1.0-beta3"
 
 projects[i18n][version] = "1.12"
 
-projects[i18nviews][version] = "1.12"
+projects[i18nviews][version] = "3.x-dev"
 
 projects[hreflang][version] = "3.x-dev"
 
