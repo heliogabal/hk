@@ -203,6 +203,8 @@ projects[views][version] = "3.10"
 projects[views][patch][] = "https://www.drupal.org/files/issues/views-ajax-nginx-1036962-71.patch"
 #Needed for views selective filters
 projects[views][patch][] = "https://www.drupal.org/files/issues/aggregation_not_working-2159347-87.patch"
+#Geofield Search API bug
+https://www.drupal.org/files/issues/2115269-views_handler_field_field_get_value_fatal_error_clone_method_called_on_non_object-5.patch
 
 projects[views_selective_filters][version] = 1.3
 
@@ -219,10 +221,12 @@ projects[xmlsitemap][version] = "2.0"
 ; bear_skin
 projects[bear_skin][type] = "theme"
 projects[bear_skin][version] = "1.2"
+projects[bear_skin][subdir] = ""
 
 ; zen
 projects[zen][type] = "theme"
 projects[zen][version] = "5.5"
+projects[zen][subdir] = ""
 
 ; +++++ Libraries +++++
 
@@ -238,7 +242,7 @@ libraries[flexslider][directory_name] = "flexslider"
 libraries[flexslider][type] = "library"
 libraries[flexslider][destination] = "libraries"
 libraries[flexslider][download][type] = "get"
-libraries[flexslider][download][url] = "https://github.com/woothemes/FlexSlider/archive/flexslider1.zip"
+libraries[flexslider][download][url] = "https://github.com/woothemes/FlexSlider/archive/version/2.1.zip"
 
 ; ColorBox
 libraries[colorbox][directory_name] = "colorbox"
@@ -254,3 +258,25 @@ libraries[plupload][destination] = "libraries"
 libraries[plupload][patch][] = "http://drupal.org/files/plupload-1_5_6-rm_examples-1903850-5.patch"
 libraries[plupload][download][type] = "file"
 libraries[plupload][download][url] = "http://plupload.com/downloads/plupload_1_5_6.zip"
+
+; manualcrop
+includes[manualcrop] = http://cgit.drupalcode.org/manualcrop/tree/manualcrop.make
+
+; leaflet
+libraries[leaflet][directory_name] = "leaflet"
+libraries[leaflet][type] = "library"
+libraries[leaflet][destination] = "libraries"
+libraries[leaflet][download][type] = "get"
+libraries[leaflet][download][url] = "http://leaflet-cdn.s3.amazonaws.com/build/leaflet-0.7.3.zip"
+
+; leaflet markercluster
+libraries[leaflet_markercluster][download][type] = "git"
+libraries[leaflet_markercluster][download][url] = "https://github.com/Leaflet/Leaflet.markercluster.git"
+libraries[leaflet_markercluster][directory_name] = "leaflet_markercluster"
+libraries[leaflet_markercluster][destination] = "libraries"
+
+;; Leaflet.fullscreen plugin
+libraries[leaflet_fullscreen][download][type] = "git"
+libraries[leaflet_fullscreen][download][revision] = "2becb29"
+libraries[leaflet_fullscreen][download][url] = "https://github.com/Leaflet/Leaflet.fullscreen.git"
+libraries[leaflet_fullscreen][directory_name] = "leaflet.fullscreen"
