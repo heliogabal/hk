@@ -10,5 +10,5 @@ includes[] = "drupal-org.make"
 projects[hk][type] = profile
 projects[hk][download][type] = git
 projects[hk][download][url] = https://github.com/heliogabal/hk.git
-projects[hk][download][branch] = 7.x-1.x
+projects[hk][download][branch] = master
 projects[hk][subdir] = ""

@@ -215,7 +215,6 @@ projects[views_slideshow][version] = "3.1"
 projects[xmlsitemap][version] = "2.0"
 
 ; +++++ Features +++++
-projects[hk_content_types][version] = "1.2"
 
 ;hk_content_types
 projects[hk_content_types][type] = module
