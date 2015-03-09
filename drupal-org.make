@@ -145,6 +145,8 @@ projects[entity_rules][version] = "1.0-alpha4"
 
 projects[equalheights][version] = "2.4"
 
+projects[form_builder][version] = "1.6"
+
 projects[geocoder][version] = "1.2"
 
 projects[geophp][version] = "1.7"
@@ -176,6 +178,8 @@ projects[mandrill][version] = "2.1"
 projects[menu_block][version] = "2.5"
 
 projects[multiform][version] = "1.1"
+
+projects[options_element][version] = "1.12"
 
 projects[pathauto][version] = "1.x-dev"
 
