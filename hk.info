@@ -11,8 +11,16 @@ core = "7.x"
 dependencies[] = admin_menu
 dependencies[] = admin_menu_toolbar
 dependencies[] = admin_views
+dependencies[] = adminimal_admin_menu
+dependencies[] = block_class
 dependencies[] = coffee
 dependencies[] = module_filter
+dependencies[] = fpa
+
+; UX
+dependencies[] = compact_forms
+dependencies[] = dhtml_menu
+
 ; Bear
 ;dependencies[] = bear_hunt
 ; CRM Core
@@ -55,6 +63,7 @@ dependencies[] = path
 dependencies[] = search
 dependencies[] = system
 dependencies[] = taxonomy
+dependencies[] = taxonomy_manager
 dependencies[] = text
 dependencies[] = translation
 dependencies[] = user
@@ -101,10 +110,17 @@ dependencies[] = flag_bookmark
 ; FlexSlider
 dependencies[] = flexslider
 dependencies[] = flexslider_fields
-dependencies[] = flexslider_views_slideshow
+;dependencies[] = flexslider_views_slideshow
+dependencies[] = flexslider_views
 ; Image
 dependencies[] = manualcrop
 dependencies[] = smartcrop
+; Mapping
+dependencies[] = leaflet
+dependencies[] = leaflet_mapbox
+dependencies[] = leaflet_markercluster
+dependencies[] = ip_geoloc
+;dependencies[] = leaflet_more_maps
 ; Media
 dependencies[] = file_entity
 dependencies[] = media
@@ -134,30 +150,43 @@ dependencies[] = i18n_string
 dependencies[] = i18n_taxonomy
 dependencies[] = i18n_translation
 dependencies[] = i18n_variable
+dependencies[] = i18nviews
 ; Other
 dependencies[] = breadcrumbs_by_path
 dependencies[] = breakpoints
 dependencies[] = colorbox
+dependencies[] = colorbox_node
 dependencies[] = diff
 dependencies[] = entity
 dependencies[] = entity_view_mode
+dependencies[] = entity_tokens
 dependencies[] = equalheights
+dependencies[] = fontello
 dependencies[] = geocoder
 dependencies[] = geophp
 dependencies[] = habitat
+dependencies[] = hreflang
+dependencies[] = icon
+dependencies[] = icon_menu
 dependencies[] = job_scheduler
-dependencies[] = leaflet
-dependencies[] = leaflet_more_maps
 dependencies[] = libraries
 dependencies[] = linkit
+dependencies[] = mailsystem
+dependencies[] = mandrill
+dependencies[] = mandrill_reports
+dependencies[] = mandrill_template
+dependencies[] = mandrill_activity
 dependencies[] = menu_block
 dependencies[] = multiform
 dependencies[] = pathauto
 dependencies[] = redirect
 dependencies[] = robotstxt
+dependencies[] = rules
+dependencies[] = rules_ui
 dependencies[] = strongarm
 dependencies[] = styleguide
 dependencies[] = token
+dependencies[] = translation_table
 dependencies[] = transliteration
 ; Panels
 dependencies[] = panels
@@ -165,11 +194,12 @@ dependencies[] = panels
 dependencies[] = globalredirect
 ; Performance and scalability
 dependencies[] = entitycache
+dependencies[] = js
 ; Picture
 dependencies[] = flexslider_picture
 dependencies[] = picture
 ; RedHen
-dependencies[] = redhen_fields
+;dependencies[] = redhen_fields
 ; Relation
 dependencies[] = relation
 dependencies[] = relation_endpoint
@@ -180,6 +210,7 @@ dependencies[] = search_api
 dependencies[] = search_api_autocomplete
 dependencies[] = search_api_db
 dependencies[] = search_api_facetapi
+dependencies[] = search_api_location
 dependencies[] = search_api_override
 dependencies[] = search_api_ranges
 dependencies[] = search_api_solr
@@ -201,8 +232,14 @@ dependencies[] = variable_realm
 dependencies[] = variable_store
 ; Views
 dependencies[] = views
+dependencies[] = views_accelerator
 dependencies[] = views_bulk_operations
+dependencies[] = views_cache_bully
+dependencies[] = views_filters_selective
+dependencies[] = views_flag_refresh
 dependencies[] = views_fluid_grid
+dependencies[] = views_pdf
+dependencies[] = php_filter
 dependencies[] = views_slideshow
 dependencies[] = views_ui
 ; XML sitemap
@@ -215,4 +252,6 @@ dependencies[] = features
 ;dependencies[] = bear_show
 ;dependencies[] = bear_user
 dependencies[] = hk_content_types
+dependencies[] = hk_ct_apart
+dependencies[] = hk_exposed_filters
 
