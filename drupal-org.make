@@ -7,9 +7,9 @@ defaults[projects][subdir] = "contrib"
 
 ; +++++ Modules +++++
 
-projects[admin_menu][version] = "3.0-rc4"
+projects[admin_menu][version] = "3.0-rc5"
 
-projects[admin_views][version] = "1.3"
+projects[admin_views][version] = "1.4"
 
 projects[adminimal_admin_menu][version] = "1.5"
 
@@ -19,7 +19,7 @@ projects[block_class][version] = "2.1"
 
 projects[coffee][version] = "2.2"
 
-projects[module_filter][version] = "2.0-alpha2"
+projects[module_filter][version] = "2.0"
 
 projects[bear][version] = "1.x-dev"
 
@@ -35,7 +35,7 @@ projects[crm_core][version] = "0.980"
 
 projects[crm_core_profile][version] = "1.0-beta10"
 
-projects[ctools][version] = "1.5"
+projects[ctools][version] = "1.6"
 
 projects[page_manager_templates][version] = "1.x-dev"
 
@@ -49,7 +49,7 @@ projects[profiler_builder][version] = "1.2"
 
 projects[ds][version] = "2.7"
 
-projects[features][version] = "2.2"
+projects[features][version] = "2.4"
 
 projects[feeds][version] = "2.0-alpha8"
 
@@ -59,7 +59,7 @@ projects[feeds_xpathparser][version] = "1.0"
 
 projects[fpa][version] = "2.6"
 
-projects[addressfield][version] = "1.0-rc1"
+projects[addressfield][version] = "1.0"
 
 projects[compact_forms][version] = "1.0"
 
@@ -89,7 +89,7 @@ projects[references][version] = "2.1"
 
 projects[viewfield][version] = "2.0"
 
-projects[flag][version] = "3.5"
+projects[flag][version] = "3.6"
 
 projects[flexslider][version] = "2.0-alpha3"
 
@@ -109,13 +109,13 @@ projects[plupload][version] = "1.7"
 
 projects[message][version] = "1.9"
 
-projects[migrate][version] = "2.6"
+projects[migrate][version] = "2.7"
 
-projects[migrate_d2d][version] = "2.x-dev"
+projects[migrate_d2d][version] = "2.1"
 
 projects[translation_helpers][version] = "1.0"
 
-projects[entity_translation][version] = "1.0-beta3"
+projects[entity_translation][version] = "1.0-beta4"
 
 projects[i18n][version] = "1.12"
 
@@ -133,7 +133,7 @@ projects[colorbox_node][version] = "3.4"
 
 projects[diff][version] = "3.2"
 
-projects[entity][version] = "1.5"
+projects[entity][version] = "1.6"
 
 projects[entity2text][version] = "1.0-alpha2"
 
@@ -167,13 +167,13 @@ projects[leaflet_more_maps][version] = "1.10"
 
 projects[libraries][version] = "2.2"
 
-projects[linkit][version] = "2.x-dev"
+projects[linkit][version] = "2.7"
 
 projects[mailsystem][version] = "2.34"
 
-projects[mandrill][version] = "2.0"
+projects[mandrill][version] = "2.1"
 
-projects[menu_block][version] = "2.4"
+projects[menu_block][version] = "2.5"
 
 projects[multiform][version] = "1.1"
 
@@ -183,7 +183,7 @@ projects[redirect][version] = "1.x-dev"
 
 projects[robotstxt][version] = "1.2"
 
-projects[rules][version] = "2.7"
+projects[rules][version] = "2.8"
 
 projects[strongarm][version] = "2.0"
 
@@ -195,11 +195,11 @@ projects[title][version] = "1.0-alpha7"
 
 projects[translation_table][version] = "1.0-beta1"
 
-projects[token][version] = "1.5"
+projects[token][version] = "1.6"
 
 projects[transliteration][version] = "3.2"
 
-projects[panels][version] = "3.4"
+projects[panels][version] = "3.5"
 
 projects[globalredirect][version] = "1.5"
 
@@ -207,11 +207,11 @@ projects[entitycache][version] = "1.2"
 
 projects[picture][version] = "2.9"
 
-projects[redhen][version] = "1.8"
+projects[redhen][version] = "1.9"
 
-projects[relation][version] = "1.0-rc6"
+projects[relation][version] = "1.0-rc7"
 
-projects[search_api][version] = "1.13"
+projects[search_api][version] = "1.14"
 
 projects[search_api_autocomplete][version] = "1.1"
 
@@ -233,7 +233,7 @@ projects[facetapi][version] = "1.5"
 
 projects[facetapi_bonus][version] = "1.1"
 
-projects[facetapi_pretty_paths][version] = "1.1"
+projects[facetapi_pretty_paths][version] = "1.3"
 
 projects[facetapi_tagcloud][version] = "1.0-beta1"
 
@@ -243,7 +243,7 @@ projects[fontello][version] = "1.0"
 
 projects[content_menu][version] = "1.0"
 
-projects[jquery_update][version] = "2.4"
+projects[jquery_update][version] = "2.5"
 
 projects[wysiwyg][version] = "2.x-dev"
 
@@ -270,7 +270,9 @@ projects[views_pdf][version] = "1.4"
 
 projects[views_slideshow][version] = "3.1"
 
-projects[xmlsitemap][version] = "2.0"
+projects[webform][version] = "4.4"
+
+projects[xmlsitemap][version] = "2.2"
 
 ; +++++ Features +++++
 
@@ -308,7 +310,7 @@ projects[zen][version] = "5.5"
 projects[zen][subdir] = ""
 
 projects[adminimal_theme][type] = "theme"
-projects[adminimal_theme][version] = "1.20"
+projects[adminimal_theme][version] = "1.21"
 projects[adminimal_theme][subdir] = ""
 
 ; +++++ Libraries +++++
