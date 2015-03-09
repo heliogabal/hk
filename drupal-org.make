@@ -155,7 +155,7 @@ projects[habitat][version] = "1.0"
 
 projects[icon][version] = "1.0-beta5"
 
-projects[ip_geoloc][version] = "1.26"
+;projects[ip_geoloc][version] = "1.26"
 
 projects[job_scheduler][version] = "2.0-alpha3"
 
@@ -301,6 +301,12 @@ projects[hk_exposed_filters][download][url] = "https://github.com/heliogabal/hk_
 projects[hk_exposed_filters][subdir] = "custom"
 projects[hk_exposed_filters][options][working-copy] = TRUE
 
+;ip_geoloc_patched
+projects[ip_geoloc][type] = module
+projects[ip_geoloc][download][type] = "git"
+projects[ip_geoloc][download][url] = "https://github.com/heliogabal/ip_geoloc.git"
+projects[ip_geoloc][subdir] = "custom"
+projects[ip_geoloc][options][working-copy] = TRUE
 ; +++++ Themes +++++
 
 ; bear_skin
