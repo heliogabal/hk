@@ -317,6 +317,7 @@ projects[hk_theme][type] = "theme"
 projects[hk_theme][download][type] = "git"
 projects[hk_theme][download][url] = "https://github.com/heliogabal/hk_theme.git"
 projects[hk_theme][options][working-copy] = TRUE
+projects[adminimal_theme][subdir] = ""
 
 ; +++++ Libraries +++++
 
