@@ -254,7 +254,7 @@ projects[views][patch][] = "https://www.drupal.org/files/issues/aggregation_not_
 #Geofield Search API bug
 https://www.drupal.org/files/issues/2115269-views_handler_field_field_get_value_fatal_error_clone_method_called_on_non_object-5.patch
 
-projects[views_accelerator][version] = "1.0-alpha2"
+projects[views_accelerator][version] = "1.0-beta1"
 
 projects[views_selective_filters][version] = 1.3
 
