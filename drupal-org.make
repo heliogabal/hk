@@ -216,6 +216,8 @@ projects[search_api][version] = "1.13"
 projects[search_api_autocomplete][version] = "1.1"
 
 projects[search_api_db][version] = "1.4"
+; Stopped BOA Migrate Fehler https://www.drupal.org/node/2428693
+projects[search_api_db][patch][] = "https://www.drupal.org/files/issues/entity-type-indhold-doest-specify-a-type-for-the-nid-property-2428693-2.patch"
 
 projects[search_api_location][version] = "2.0-beta2"
 
