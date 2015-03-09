@@ -386,3 +386,10 @@ libraries[fontawesome][download][type] = "get"
 libraries[fontawesome][download][url] = "http://fortawesome.github.io/Font-Awesome/3.2.1/assets/font-awesome.zip"
 libraries[fontawesome][directory_name] = "fontawesome"
 libraries[fontawesome][destination] = "libraries"
+
+; SimplePie RSS parser for feeds
+libraries[simplepie][directory_name] = simplepie
+libraries[simplepie][download][type] = get
+libraries[simplepie][download][url] = http://simplepie.org/downloads/simplepie_1.3.1.compiled.php
+libraries[simplepie][copy_file][] = simplepie.compiled.php
+libraries[simplepie][overwrite] = TRUE
