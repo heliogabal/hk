@@ -14,7 +14,7 @@ dependencies[] = admin_views
 dependencies[] = coffee
 dependencies[] = module_filter
 ; Bear
-dependencies[] = bear_hunt
+;dependencies[] = bear_hunt
 ; CRM Core
 dependencies[] = crm_core
 dependencies[] = crm_core_activity
@@ -209,10 +209,10 @@ dependencies[] = views_ui
 dependencies[] = xmlsitemap
 ; Features
 dependencies[] = features
-dependencies[] = bear_habitat
-dependencies[] = bear_habitat_local
-dependencies[] = bear_necessities
-dependencies[] = bear_show
-dependencies[] = bear_user
+;dependencies[] = bear_habitat
+;dependencies[] = bear_habitat_local
+;dependencies[] = bear_necessities
+;dependencies[] = bear_show
+;dependencies[] = bear_user
 dependencies[] = hk_content_types
 
