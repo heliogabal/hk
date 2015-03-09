@@ -6,7 +6,7 @@
  */
 function hk_install() {
   // Enable some hk blocks.
-  $default_theme = 'bear_skin';
+  $default_theme = 'hk_theme';
   $admin_theme = 'adminimal_theme';
   // disable all themes
   db_update('system')

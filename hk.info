@@ -240,7 +240,7 @@ dependencies[] = views_flag_refresh
 dependencies[] = views_fluid_grid
 dependencies[] = views_pdf
 dependencies[] = php_filter
-dependencies[] = views_slideshow
+;dependencies[] = views_slideshow
 dependencies[] = views_ui
 ; XML sitemap
 dependencies[] = xmlsitemap
