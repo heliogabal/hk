@@ -429,8 +429,10 @@ libraries[mandrill][directory_name] = "mandrill"
 libraries[mandrill][destination] = "libraries"
 
 ;emogrifier TODO: not working
-libraries[emogrifier][download][type] = "git"
-libraries[emogrifier][download][url] = "https://github.com/jjriv/emogrifier.git"
-libraries[emogrifier][download][branch] = "master"
-libraries[emogrifier][download][revision] = "82457befc8695a895f62c895da4614815c613112"
+libraries[emogrifier][download][type] = "get"
+libraries[emogrifier][download][url] = "https://raw.githubusercontent.com/jjriv/emogrifier/master/Classes/Emogrifier.php"
+;libraries[emogrifier][download][branch] = "master"
+;libraries[emogrifier][download][revision] = "82457befc8695a895f62c895da4614815c613112"
 libraries[emogrifier][destination] = "libraries"
+libraries[emogrifier][directory_name] = "emogrifier/Classes"
+;libraries[emogrifier][copy_file][] = Emogrifier.php
