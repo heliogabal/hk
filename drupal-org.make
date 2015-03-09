@@ -393,3 +393,28 @@ libraries[simplepie][download][type] = get
 libraries[simplepie][download][url] = http://simplepie.org/downloads/simplepie_1.3.1.compiled.php
 libraries[simplepie][copy_file][] = simplepie.compiled.php
 libraries[simplepie][overwrite] = TRUE
+
+; jQuery imagesLoaded for equalheights
+libraries[imagesloaded][download][type] = file
+libraries[imagesloaded][download][url] = https://github.com/desandro/imagesloaded/archive/v2.1.2.tar.gz
+libraries[imagesloaded][download][subtree] = imagesloaded-2.1.2
+libraries[imagesloaded][directory_name] = "imagesloaded"
+libraries[imagesloaded][destination] = "libraries"
+
+libraries[mailchimp][download][type] = "get"
+libraries[mailchimp][download][url] = "http://apidocs.mailchimp.com/api/downloads/mailchimp-api-class.zip"
+libraries[mailchimp][directory_name] = "mailchimp"
+libraries[mailchimp][destination] = "libraries"
+
+; mandrill
+libraries[mandrill][download][type] = "get"
+libraries[mandrill][download][url] = "https://bitbucket.org/mailchimp/mandrill-api-php/get/1.0.52.tar.gz"
+libraries[mandrill][directory_name] = "mandrill"
+libraries[mandrill][destination] = "libraries"
+
+;emogrifier TODO: not working
+libraries[emogrifier][download][type] = "git"
+libraries[emogrifier][download][url] = "https://github.com/jjriv/emogrifier.git"
+libraries[emogrifier][download][branch] = "master"
+libraries[emogrifier][download][revision] = "82457befc8695a895f62c895da4614815c613112"
+libraries[emogrifier][destination] = "libraries"
