@@ -157,7 +157,8 @@ projects[icon][version] = "1.0-beta5"
 ; Allow Icons to replace menu items https://www.drupal.org/node/2366055
 projects[icon][patch][] = "https://www.drupal.org/files/issues/2366055-icon-menu-replace-2.patch"
 
-;projects[ip_geoloc][version] = "1.26"
+projects[ip_geoloc][version] = "1.26"
+projects[ip_geoloc][patch][] = "https://raw.githubusercontent.com/heliogabal/hk_patches/master/hk_customization-minZoom-maxBounds-Marker.patch"
 
 projects[job_scheduler][version] = "2.0-alpha3"
 
@@ -304,11 +305,12 @@ projects[hk_exposed_filters][subdir] = "custom"
 projects[hk_exposed_filters][options][working-copy] = TRUE
 
 ;ip_geoloc_patched
-projects[ip_geoloc][type] = module
-projects[ip_geoloc][download][type] = "git"
-projects[ip_geoloc][download][url] = "https://github.com/heliogabal/ip_geoloc.git"
-projects[ip_geoloc][subdir] = "custom"
-projects[ip_geoloc][options][working-copy] = TRUE
+;projects[ip_geoloc][type] = module
+;projects[ip_geoloc][download][type] = "git"
+;projects[ip_geoloc][download][url] = "https://github.com/heliogabal/ip_geoloc.git"
+;projects[ip_geoloc][subdir] = "custom"
+;projects[ip_geoloc][options][working-copy] = TRUE
+
 ; +++++ Themes +++++
 
 ; bear_skin
