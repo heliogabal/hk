@@ -73,6 +73,8 @@ projects[email][version] = "1.3"
 
 projects[entityreference][version] = "1.1"
 
+projects[references_dialog] = "1.0-beta1"
+
 projects[field_group][version] = "1.4"
 
 projects[geofield][version] = "2.3"
