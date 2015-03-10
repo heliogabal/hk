@@ -307,6 +307,13 @@ projects[hk_exposed_filters][download][url] = "https://github.com/heliogabal/hk_
 projects[hk_exposed_filters][subdir] = "custom"
 projects[hk_exposed_filters][options][working-copy] = TRUE
 
+;hk_leaflet
+projects[hk_leaflet][type] = module
+projects[hk_leaflet][download][type] = "git"
+projects[hk_leaflet][download][url] = "https://github.com/heliogabal/hk_leaflet.git"
+projects[hk_leaflet][subdir] = "custom"
+projects[hk_leaflet][options][working-copy] = TRUE
+
 ;ip_geoloc_patched
 ;projects[ip_geoloc][type] = module
 ;projects[ip_geoloc][download][type] = "git"
