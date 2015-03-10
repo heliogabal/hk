@@ -154,6 +154,8 @@ projects[geophp][version] = "1.7"
 projects[habitat][version] = "1.0"
 
 projects[icon][version] = "1.0-beta5"
+; Allow Icons to replace menu items https://www.drupal.org/node/2366055
+projects[icon][patch][] = "https://www.drupal.org/files/issues/2366055-icon-menu-replace-2.patch"
 
 ;projects[ip_geoloc][version] = "1.26"
 
