@@ -157,18 +157,21 @@ projects[icon][version] = "1.0-beta5"
 ; Allow Icons to replace menu items https://www.drupal.org/node/2366055
 projects[icon][patch][] = "https://www.drupal.org/files/issues/2366055-icon-menu-replace-2.patch"
 
-projects[ip_geoloc][version] = "1.26"
+;projects[ip_geoloc][version] = "1.26"
+projects[ip_geoloc][version] = "1.x-dev"
 projects[ip_geoloc][patch][] = "https://raw.githubusercontent.com/heliogabal/hk_patches/master/hk_customization-minZoom-maxBounds-Marker.patch"
 
 projects[job_scheduler][version] = "2.0-alpha3"
 
-projects[leaflet][version] = "1.1"
+;projects[leaflet][version] = "1.1"
+projects[leaflet][version] = "1.x-dev"
 
 projects[leaflet_mapbox][version] = "1.2"
 
-projects[leaflet_markercluster][version] = "1.2"
+;projects[leaflet_markercluster][version] = "1.2"
+projects[leaflet_markercluster][version] = "1.x-dev"
 
-projects[leaflet_more_maps][version] = "1.10"
+;projects[leaflet_more_maps][version] = "1.10"
 
 projects[libraries][version] = "2.2"
 
