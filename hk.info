@@ -20,6 +20,9 @@ dependencies[] = fpa
 ; UX
 dependencies[] = compact_forms
 dependencies[] = dhtml_menu
+dependencies[] = better_formats
+dependencies[] = better_exposed_filters
+dependencies[] = select2
 
 ; Bear
 ;dependencies[] = bear_hunt

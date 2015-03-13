@@ -29,7 +29,9 @@ projects[bear_hunt][version] = "1.x-dev"
 
 projects[bear_show][version] = "1.x-dev"
 
-projects[better_exposed_filters] = 3.0
+projects[better_exposed_filters][version] = 3.0
+
+projects[better_formats][version] = "1.0-beta1"
 
 projects[crm_core][version] = "0.980"
 
@@ -259,6 +261,8 @@ projects[fontello][version] = "1.0"
 projects[content_menu][version] = "1.0"
 
 projects[jquery_update][version] = "2.5"
+
+projects[select2][version] = "1.x-dev"
 
 projects[wysiwyg][version] = "2.x-dev"
 
