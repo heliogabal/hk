@@ -65,7 +65,8 @@ projects[compact_forms][version] = "1.0"
 
 projects[computed_field][version] = "1.0"
 
-projects[conditional_fields][version] = "3.0-alpha1"
+;projects[conditional_fields][version] = "3.0-alpha1"
+projects[field_conditional_state][version] = "2.1"
 
 projects[dhtml_menu][version] = "1.x-dev"
 
@@ -74,6 +75,8 @@ projects[email][version] = "1.3"
 projects[entityreference][version] = "1.1"
 
 projects[references_dialog] = "1.0-beta1"
+; https://www.drupal.org/node/2375741
+projects[references_dialog][patch][] = "https://www.drupal.org/files/issues/2375741-fixing_typo-1.patch"
 
 projects[field_group][version] = "1.4"
 
@@ -352,7 +355,7 @@ libraries[ckeditor][directory_name] = "ckeditor"
 libraries[ckeditor][type] = "library"
 libraries[ckeditor][destination] = "libraries"
 libraries[ckeditor][download][type] = "get"
-libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.6.1/ckeditor_3.6.6.1.tar.gz"
+libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.3.3/ckeditor_4.3.3_full.zip"
 
 ; Flexslider
 libraries[flexslider][directory_name] = "flexslider"
