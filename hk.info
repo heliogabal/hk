@@ -91,6 +91,7 @@ dependencies[] = feeds_tamper
 dependencies[] = feeds_tamper_ui
 dependencies[] = feeds_ui
 dependencies[] = feeds_xpathparser
+dependencies[] = entityreference_feeds
 ; Fields
 dependencies[] = addressfield
 dependencies[] = computed_field
