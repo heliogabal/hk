@@ -158,7 +158,7 @@ projects[entity_rules][version] = "1.0-alpha4"
 
 projects[equalheights][version] = "2.4"
 
-projects[form_builder][version] = "1.6"
+projects[form_builder][version] = "1.7"
 
 projects[geocoder][version] = "1.2"
 
