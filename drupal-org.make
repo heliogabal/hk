@@ -408,7 +408,7 @@ libraries[leaflet_markercluster][destination] = "libraries"
 libraries[leaflet_fullscreen][download][type] = "git"
 libraries[leaflet_fullscreen][download][revision] = "2becb29"
 libraries[leaflet_fullscreen][download][url] = "https://github.com/Leaflet/Leaflet.fullscreen.git"
-libraries[leaflet_fullscreen][directory_name] = "leaflet.fullscreen"
+libraries[leaflet_fullscreen][directory_name] = "leaflet-fullscreen"
 
 ;; Views PDF
 libraries[tcpdf][type] = "libraries"
