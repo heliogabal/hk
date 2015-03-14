@@ -127,6 +127,8 @@ projects[translation_helpers][version] = "1.0"
 projects[entity_translation][version] = "1.0-beta4"
 
 projects[i18n][version] = "1.12"
+# Translate Field Pre- and Suffix, not passing tests: https://www.drupal.org/node/1221208
+projects[i18n][patch][] = "https://www.drupal.org/files/issues/i18n_field-i18n_field-should-translate-prefix-suffix-of-number-fields-1221208-41.patch"
 
 projects[i18nviews][version] = "3.x-dev"
 
