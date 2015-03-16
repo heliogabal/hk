@@ -13,9 +13,11 @@ projects[admin_views][version] = "1.4"
 
 projects[adminimal_admin_menu][version] = "1.5"
 
-projects[advagg][version] = "2.7"
+projects[advagg][version] = "2.x-dev" # until 2.8 is released, recommended for cdn
 
 projects[block_class][version] = "2.1"
+
+projects[cdn][version] = "2.6"
 
 projects[coffee][version] = "2.2"
 

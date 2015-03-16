@@ -199,6 +199,8 @@ dependencies[] = globalredirect
 ; Performance and scalability
 dependencies[] = entitycache
 dependencies[] = js
+dependencies[] = cdn
+dependencies[] = httprl
 ; Picture
 dependencies[] = flexslider_picture
 dependencies[] = picture
