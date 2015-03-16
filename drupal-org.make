@@ -88,6 +88,10 @@ projects[field_group][version] = "1.4"
 
 projects[geofield][version] = "2.3"
 
+projects[httprl][version] = "1.14"
+
+projects[js][version] = "1.x-dev"
+
 projects[link][version] = "1.3"
 
 projects[name][version] = "1.9"
@@ -234,6 +238,8 @@ projects[picture][version] = "2.9"
 
 projects[redhen][version] = "1.9"
 
+projects[redhen_lead][version] = "1.0-alpha4"
+
 projects[relation][version] = "1.0-rc7"
 
 projects[search_api][version] = "1.14"
@@ -285,7 +291,7 @@ https://www.drupal.org/files/issues/2115269-views_handler_field_field_get_value_
 
 projects[views_accelerator][version] = "1.0-beta1"
 
-projects[views_selective_filters][version] = 1.3
+projects[views_selective_filters][version] = "1.3"
 
 projects[views_bulk_operations][version] = "3.2"
 
