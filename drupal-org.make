@@ -55,6 +55,8 @@ projects[features][version] = "2.4"
 
 projects[entityreference_feeds][version] = "1.0-beta2"
 
+projects[entityreference_prepopulate][version] = "1.5"
+
 projects[feeds][version] = "2.0-alpha8"
 
 projects[feeds_tamper][version] = "1.0"
