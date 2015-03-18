@@ -13,7 +13,7 @@ dependencies[] = admin_menu_toolbar
 dependencies[] = admin_views
 dependencies[] = adminimal_admin_menu
 dependencies[] = block_class
-dependencies[] = coffee
+;dependencies[] = coffee
 dependencies[] = module_filter
 dependencies[] = fpa
 
@@ -22,7 +22,7 @@ dependencies[] = compact_forms
 dependencies[] = dhtml_menu
 dependencies[] = better_formats
 dependencies[] = better_exposed_filters
-dependencies[] = select2
+;dependencies[] = select2
 
 ; Bear
 ;dependencies[] = bear_hunt
@@ -79,7 +79,7 @@ dependencies[] = date_views
 dependencies[] = devel
 dependencies[] = devel_generate
 dependencies[] = devel_image_provider
-dependencies[] = profiler_builder
+;dependencies[] = profiler_builder
 ; Display Suite
 dependencies[] = ds
 dependencies[] = ds_extras
@@ -110,7 +110,7 @@ dependencies[] = viewfield
 ; Flags
 dependencies[] = flag
 dependencies[] = flag_actions
-dependencies[] = flag_bookmark
+;dependencies[] = flag_bookmark
 ; FlexSlider
 dependencies[] = flexslider
 dependencies[] = flexslider_fields
@@ -136,10 +136,10 @@ dependencies[] = plupload
 ; Message
 dependencies[] = message
 ; Migration
-dependencies[] = migrate
-dependencies[] = migrate_d2d
-dependencies[] = migrate_d2d_ui
-dependencies[] = migrate_ui
+;dependencies[] = migrate
+;dependencies[] = migrate_d2d
+;dependencies[] = migrate_d2d_ui
+;dependencies[] = migrate_ui
 ; Multilanguage
 dependencies[] = translation_helpers
 ; Multilingual - Entity Translation
@@ -159,7 +159,7 @@ dependencies[] = i18nviews
 dependencies[] = breadcrumbs_by_path
 dependencies[] = breakpoints
 dependencies[] = colorbox
-dependencies[] = colorbox_node
+;dependencies[] = colorbox_node
 dependencies[] = diff
 dependencies[] = entity
 dependencies[] = entity_view_mode
@@ -193,14 +193,14 @@ dependencies[] = token
 dependencies[] = translation_table
 dependencies[] = transliteration
 ; Panels
-dependencies[] = panels
+;dependencies[] = panels
 ; Path management
 dependencies[] = globalredirect
 ; Performance and scalability
 dependencies[] = entitycache
-dependencies[] = js
-dependencies[] = cdn
-dependencies[] = httprl
+;dependencies[] = js
+;dependencies[] = cdn
+;dependencies[] = httprl
 ; Picture
 dependencies[] = flexslider_picture
 dependencies[] = picture
@@ -241,7 +241,7 @@ dependencies[] = views
 dependencies[] = views_accelerator
 dependencies[] = views_bulk_operations
 dependencies[] = views_cache_bully
-dependencies[] = views_filters_selective
+;dependencies[] = views_filters_selective
 dependencies[] = views_flag_refresh
 dependencies[] = views_fluid_grid
 dependencies[] = views_pdf

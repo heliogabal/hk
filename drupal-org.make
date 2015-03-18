@@ -18,20 +18,20 @@ projects[advagg][version] = "2.x-dev"
 
 projects[block_class][version] = "2.1"
 
-projects[cdn][version] = "2.6"
-projects[cdn][patch][] = "https://www.drupal.org/files/issues/1514182-IE-font-face-CSS-hack-URL-broken-66.patch"
+;projects[cdn][version] = "2.6"
+;projects[cdn][patch][] = "https://www.drupal.org/files/issues/1514182-IE-font-face-CSS-hack-URL-broken-66.patch"
 
-projects[coffee][version] = "2.2"
+;projects[coffee][version] = "2.2"
 
 projects[module_filter][version] = "2.0"
 
-projects[bear][version] = "1.x-dev"
+;projects[bear][version] = "1.x-dev"
 
-projects[bear_hunt][version] = "1.x-dev"
+;projects[bear_hunt][version] = "1.x-dev"
 
 ;projects[bear_necessities][version] = "1.7-alpha1"
 
-projects[bear_show][version] = "1.x-dev"
+;projects[bear_show][version] = "1.x-dev"
 
 projects[better_exposed_filters][version] = 3.0
 
@@ -51,7 +51,7 @@ projects[devel][version] = "1.5"
 
 projects[devel_image_provider][version] = "1.x-dev"
 
-projects[profiler_builder][version] = "1.2"
+;projects[profiler_builder][version] = "1.2"
 
 projects[ds][version] = "2.7"
 
@@ -92,9 +92,9 @@ projects[field_group][version] = "1.4"
 
 projects[geofield][version] = "2.3"
 
-projects[httprl][version] = "1.14"
+;projects[httprl][version] = "1.14"
 
-projects[js][version] = "1.x-dev"
+;projects[js][version] = "1.x-dev"
 
 projects[link][version] = "1.3"
 
@@ -128,9 +128,9 @@ projects[plupload][version] = "1.7"
 
 projects[message][version] = "1.9"
 
-projects[migrate][version] = "2.7"
+;projects[migrate][version] = "2.7"
 
-projects[migrate_d2d][version] = "2.1"
+;projects[migrate_d2d][version] = "2.1"
 
 projects[translation_helpers][version] = "1.0"
 
@@ -152,23 +152,23 @@ projects[breakpoints][version] = "1.3"
 
 projects[colorbox][version] = "2.8"
 
-projects[colorbox_node][version] = "3.4"
+;projects[colorbox_node][version] = "3.4"
 
 projects[diff][version] = "3.2"
 
 projects[entity][version] = "1.6"
 
-projects[entity2text][version] = "1.0-alpha2"
+;projects[entity2text][version] = "1.0-alpha2"
 
 projects[entity_view_mode][version] = "1.0-rc1"
 
-projects[entityform][version] = "2.0-rc1"
+;projects[entityform][version] = "2.0-rc1"
 
 projects[entity_rules][version] = "1.0-alpha4"
 
 projects[equalheights][version] = "2.4"
 
-projects[form_builder][version] = "1.7"
+;projects[form_builder][version] = "1.7"
 
 projects[geocoder][version] = "1.2"
 
@@ -232,7 +232,7 @@ projects[token][version] = "1.6"
 
 projects[transliteration][version] = "3.2"
 
-projects[panels][version] = "3.5"
+;projects[panels][version] = "3.5"
 
 projects[globalredirect][version] = "1.5"
 
@@ -240,9 +240,9 @@ projects[entitycache][version] = "1.2"
 
 projects[picture][version] = "2.9"
 
-projects[redhen][version] = "1.9"
+;projects[redhen][version] = "1.9"
 
-projects[redhen_lead][version] = "1.0-alpha4"
+;projects[redhen_lead][version] = "1.0-alpha4"
 
 projects[relation][version] = "1.0-rc7"
 
@@ -280,7 +280,7 @@ projects[content_menu][version] = "1.0"
 
 projects[jquery_update][version] = "2.5"
 
-projects[select2][version] = "1.x-dev"
+;projects[select2][version] = "1.x-dev"
 
 projects[wysiwyg][version] = "2.x-dev"
 
@@ -289,13 +289,13 @@ projects[variable][version] = "2.5"
 projects[views][version] = "3.10"
 projects[views][patch][] = "https://www.drupal.org/files/issues/views-ajax-nginx-1036962-71.patch"
 #Needed for views selective filters
-projects[views][patch][] = "https://www.drupal.org/files/issues/aggregation_not_working-2159347-87.patch"
+;projects[views][patch][] = "https://www.drupal.org/files/issues/aggregation_not_working-2159347-87.patch"
 #Geofield Search API bug
 https://www.drupal.org/files/issues/2115269-views_handler_field_field_get_value_fatal_error_clone_method_called_on_non_object-5.patch
 
 projects[views_accelerator][version] = "1.0-beta1"
 
-projects[views_selective_filters][version] = "1.3"
+;projects[views_selective_filters][version] = "1.3"
 
 projects[views_bulk_operations][version] = "3.2"
 
@@ -305,7 +305,7 @@ projects[views_fluid_grid][version] = "3.0"
 
 projects[views_pdf][version] = "1.4"
 
-projects[views_slideshow][version] = "3.1"
+;projects[views_slideshow][version] = "3.1"
 
 projects[webform][version] = "4.4"
 
