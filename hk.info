@@ -96,6 +96,7 @@ dependencies[] = entityreference_feeds
 dependencies[] = addressfield
 dependencies[] = computed_field
 ;dependencies[] = conditional_fields
+dependencies[] = field_conditional_state
 dependencies[] = email
 dependencies[] = entityreference
 dependencies[] = field_group
