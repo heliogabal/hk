@@ -57,6 +57,8 @@ projects[ds][version] = "2.7"
 
 projects[features][version] = "2.4"
 
+projects[features_builder][version] = "1.x-dev"
+
 projects[entityreference_feeds][version] = "1.0-beta2"
 
 projects[entityreference_prepopulate][version] = "1.5"
@@ -193,6 +195,8 @@ projects[leaflet_mapbox][version] = "1.2"
 
 projects[leaflet_markercluster][version] = "1.2"
 ;projects[leaflet_markercluster][version] = "1.x-dev"
+;libraries[leaflet_markercluster][patch][] = "https://www.drupal.org/files/issues/leaflet_markercluster-leaflet-compatibility.patch"
+
 
 ;projects[leaflet_more_maps][version] = "1.10"
 
@@ -240,9 +244,9 @@ projects[entitycache][version] = "1.2"
 
 projects[picture][version] = "2.9"
 
-;projects[redhen][version] = "1.9"
+projects[redhen][version] = "1.9"
 
-;projects[redhen_lead][version] = "1.0-alpha4"
+projects[redhen_lead][version] = "1.0-alpha4"
 
 projects[relation][version] = "1.0-rc7"
 
@@ -424,7 +428,6 @@ libraries[leaflet_markercluster][download][type] = "git"
 libraries[leaflet_markercluster][download][url] = "https://github.com/Leaflet/Leaflet.markercluster.git"
 libraries[leaflet_markercluster][directory_name] = "leaflet_markercluster"
 libraries[leaflet_markercluster][destination] = "libraries"
-libraries[leaflet_markercluster][patch][] = "https://www.drupal.org/files/issues/leaflet_markercluster-leaflet-compatibility.patch"
 
 ;; Leaflet.fullscreen plugin
 libraries[leaflet_fullscreen][download][type] = "git"
