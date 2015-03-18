@@ -186,13 +186,13 @@ projects[ip_geoloc][patch][] = "https://raw.githubusercontent.com/heliogabal/hk_
 
 projects[job_scheduler][version] = "2.0-alpha3"
 
-;projects[leaflet][version] = "1.1"
-projects[leaflet][version] = "1.x-dev"
+projects[leaflet][version] = "1.1"
+;projects[leaflet][version] = "1.x-dev"
 
 projects[leaflet_mapbox][version] = "1.2"
 
-;projects[leaflet_markercluster][version] = "1.2"
-projects[leaflet_markercluster][version] = "1.x-dev"
+projects[leaflet_markercluster][version] = "1.2"
+;projects[leaflet_markercluster][version] = "1.x-dev"
 
 ;projects[leaflet_more_maps][version] = "1.10"
 
@@ -424,6 +424,7 @@ libraries[leaflet_markercluster][download][type] = "git"
 libraries[leaflet_markercluster][download][url] = "https://github.com/Leaflet/Leaflet.markercluster.git"
 libraries[leaflet_markercluster][directory_name] = "leaflet_markercluster"
 libraries[leaflet_markercluster][destination] = "libraries"
+;libraries[leaflet_markercluster][patch][] = "https://www.drupal.org/files/issues/leaflet_markercluster-leaflet-compatibility.patch"
 
 ;; Leaflet.fullscreen plugin
 libraries[leaflet_fullscreen][download][type] = "git"
