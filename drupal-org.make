@@ -424,7 +424,7 @@ libraries[leaflet_markercluster][download][type] = "git"
 libraries[leaflet_markercluster][download][url] = "https://github.com/Leaflet/Leaflet.markercluster.git"
 libraries[leaflet_markercluster][directory_name] = "leaflet_markercluster"
 libraries[leaflet_markercluster][destination] = "libraries"
-;libraries[leaflet_markercluster][patch][] = "https://www.drupal.org/files/issues/leaflet_markercluster-leaflet-compatibility.patch"
+libraries[leaflet_markercluster][patch][] = "https://www.drupal.org/files/issues/leaflet_markercluster-leaflet-compatibility.patch"
 
 ;; Leaflet.fullscreen plugin
 libraries[leaflet_fullscreen][download][type] = "git"
