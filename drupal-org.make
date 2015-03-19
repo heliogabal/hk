@@ -91,6 +91,7 @@ projects[references_dialog] = "1.0-beta1"
 projects[references_dialog][patch][] = "https://www.drupal.org/files/issues/2375741-fixing_typo-1.patch"
 
 projects[field_group][version] = "1.4"
+projects[field_group][patch][] = "https://www.drupal.org/files/issues/field_group-accordion-heightStyle-content-2173937-8.patch"
 
 projects[geofield][version] = "2.3"
 
@@ -153,6 +154,14 @@ projects[breadcrumbs_by_path][version] = "1.0-alpha12"
 projects[breakpoints][version] = "1.3"
 
 projects[colorbox][version] = "2.8"
+
+projects[context][version] = "3.6"
+
+projects[context_flag][version] = "1.2"
+
+projects[session_api][version] = "1.0-rc1"
+
+projects[session_cache][version] = "1.3"
 
 ;projects[colorbox_node][version] = "3.4"
 
