@@ -18,8 +18,8 @@ projects[advagg][version] = "2.x-dev"
 
 projects[block_class][version] = "2.1"
 
-;projects[cdn][version] = "2.6"
-;projects[cdn][patch][] = "https://www.drupal.org/files/issues/1514182-IE-font-face-CSS-hack-URL-broken-66.patch"
+projects[cdn][version] = "2.6"
+projects[cdn][patch][] = "https://www.drupal.org/files/issues/1514182-IE-font-face-CSS-hack-URL-broken-66.patch"
 
 ;projects[coffee][version] = "2.2"
 
@@ -293,7 +293,7 @@ projects[content_menu][version] = "1.0"
 
 projects[jquery_update][version] = "2.5"
 
-;projects[select2][version] = "1.x-dev"
+projects[select2][version] = "1.x-dev"
 
 projects[wysiwyg][version] = "2.x-dev"
 
