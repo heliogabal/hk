@@ -41,7 +41,7 @@ projects[crm_core][version] = "0.980"
 
 projects[crm_core_profile][version] = "1.0-beta10"
 
-projects[ctools][version] = "1.6"
+projects[ctools][version] = "1.7"
 
 projects[page_manager_templates][version] = "1.x-dev"
 
@@ -229,7 +229,7 @@ projects[redirect][version] = "1.x-dev"
 
 projects[robotstxt][version] = "1.2"
 
-projects[rules][version] = "2.8"
+projects[rules][version] = "2.9"
 
 projects[strongarm][version] = "2.0"
 
@@ -320,7 +320,7 @@ projects[views_pdf][version] = "1.4"
 
 ;projects[views_slideshow][version] = "3.1"
 
-projects[webform][version] = "4.4"
+projects[webform][version] = "4.5"
 
 projects[xmlsitemap][version] = "2.2"
 
