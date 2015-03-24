@@ -92,6 +92,7 @@ projects[references_dialog][patch][] = "https://www.drupal.org/files/issues/2375
 
 projects[field_group][version] = "1.4"
 projects[field_group][patch][] = "https://www.drupal.org/files/issues/field_group-accordion-heightStyle-content-2173937-8.patch"
+projects[field_group][patch][] = "https://www.drupal.org/files/issues/field_group-2269133-7-active_accordion.patch"
 
 projects[geofield][version] = "2.3"
 
