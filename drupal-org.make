@@ -321,7 +321,7 @@ projects[views_pdf][version] = "1.4"
 
 ;projects[views_slideshow][version] = "3.1"
 
-projects[webform][version] = "4.5"
+projects[webform][version] = "4.7"
 
 projects[xmlsitemap][version] = "2.2"
 
