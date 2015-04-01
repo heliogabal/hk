@@ -328,11 +328,18 @@ projects[xmlsitemap][version] = "2.2"
 ; +++++ Features +++++
 
 ;hk_content_types
-projects[hk_content_types][type] = module
-projects[hk_content_types][download][type] = "git"
-projects[hk_content_types][download][url] = "https://github.com/heliogabal/hk_content_types.git"
-projects[hk_content_types][subdir] = "features"
-projects[hk_content_types][options][working-copy] = TRUE
+;projects[hk_content_types][type] = module
+;projects[hk_content_types][download][type] = "git"
+;projects[hk_content_types][download][url] = "https://github.com/heliogabal/hk_content_types.git"
+;projects[hk_content_types][subdir] = "features"
+;projects[hk_content_types][options][working-copy] = TRUE
+
+;hk_ct_object
+projects[hk_ct_object][type] = module
+projects[hk_ct_object][download][type] = "git"
+projects[hk_ct_object][download][url] = "https://github.com/heliogabal/hk_ct_object.git"
+projects[hk_ct_object][subdir] = "features"
+projects[hk_ct_object][options][working-copy] = TRUE
 
 ;hk_ct_apart
 projects[hk_ct_apart][type] = module
