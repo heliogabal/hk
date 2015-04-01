@@ -282,7 +282,7 @@ projects[facetapi][version] = "1.5"
 
 projects[facetapi_bonus][version] = "1.1"
 
-projects[facetapi_pretty_paths][version] = "1.3"
+projects[facetapi_pretty_paths][version] = "1.4"
 
 projects[facetapi_tagcloud][version] = "1.0-beta1"
 
