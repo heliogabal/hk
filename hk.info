@@ -258,7 +258,8 @@ dependencies[] = features
 ;dependencies[] = bear_necessities
 ;dependencies[] = bear_show
 ;dependencies[] = bear_user
-dependencies[] = hk_content_types
+;dependencies[] = hk_content_types
+dependencies[] = hk_ct_object
 dependencies[] = hk_ct_apart
 dependencies[] = hk_exposed_filters
 
