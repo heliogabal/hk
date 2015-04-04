@@ -33,7 +33,7 @@ projects[module_filter][version] = "2.0"
 
 ;projects[bear_show][version] = "1.x-dev"
 
-projects[better_exposed_filters][version] = 3.0
+projects[better_exposed_filters][version] = 3.2
 
 projects[better_formats][version] = "1.0-beta1"
 
