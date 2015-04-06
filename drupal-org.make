@@ -73,6 +73,8 @@ projects[feeds_xpathparser][version] = "1.0"
 
 projects[fpa][version] = "2.6"
 
+projects[imageapi_optimize][version] = 1.2
+
 projects[addressfield][version] = "1.0"
 
 projects[compact_forms][version] = "1.0"
