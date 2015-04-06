@@ -519,3 +519,6 @@ libraries[select2][download][type] = "get"
 libraries[select2][download][url] = "https://github.com/select2/select2/archive/3.4.5.zip"
 libraries[select2][directory_name] = "select2"
 libraries[select2][destination] = "libraries"
+
+; +++++ Translations +++++
+translations[] = de
