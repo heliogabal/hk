@@ -240,6 +240,8 @@ projects[strongarm][version] = "2.0"
 
 projects[styleguide][version] = "1.1"
 
+projects[table_element][version] = 1.0-beta1
+
 projects[taxonomy_manager][version] = "1.0"
 
 projects[title][version] = "1.0-alpha7"
