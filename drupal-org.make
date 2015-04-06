@@ -37,6 +37,8 @@ projects[better_exposed_filters][version] = 3.2
 
 projects[better_formats][version] = "1.0-beta1"
 
+projects[cer][version] = 3.0-alpha7
+
 projects[crm_core][version] = "0.980"
 
 projects[crm_core_profile][version] = "1.0-beta10"
