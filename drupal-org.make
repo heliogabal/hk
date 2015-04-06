@@ -323,6 +323,8 @@ projects[views_pdf][version] = "1.4"
 
 projects[webform][version] = "4.7"
 
+projects[workflow][version] = 2.5
+
 projects[xmlsitemap][version] = "2.2"
 
 ; +++++ Features +++++
