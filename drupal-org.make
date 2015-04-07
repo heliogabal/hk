@@ -130,7 +130,7 @@ projects[file_entity][version] = "2.x-dev"
 
 projects[media][version] = "2.x-dev"
 
-projects[media_youtube][version] = "2.x-dev"
+projects[media_youtube][version] = "2.0-rc1"
 
 projects[plupload][version] = "1.7"
 
