@@ -90,6 +90,7 @@ projects[dhtml_menu][version] = "1.x-dev"
 projects[email][version] = "1.3"
 
 projects[entityreference][version] = "1.1"
+projects[entityreference][patch][] = "https://www.drupal.org/files/no-label-ref-found-1943300-1.patch"
 
 projects[references_dialog] = "1.0-beta1"
 ; https://www.drupal.org/node/2375741
