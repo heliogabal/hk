@@ -38,6 +38,7 @@ projects[better_exposed_filters][version] = 3.2
 projects[better_formats][version] = "1.0-beta1"
 
 projects[cer][version] = 3.0-alpha7
+projects[cer][patch][] = "https://www.drupal.org/files/issues/2331553-cer_left_exception-1.patch"
 
 projects[crm_core][version] = "0.980"
 
@@ -117,6 +118,8 @@ projects[references][version] = "2.1"
 projects[viewfield][version] = "2.0"
 
 projects[flag][version] = "3.6"
+; Warhscheinlich unnötig: https://www.drupal.org/node/1925922
+; https://www.drupal.org/files/issues/flag-broken-1925922-131.patch
 
 projects[flexslider][version] = "2.0-alpha3"
 
