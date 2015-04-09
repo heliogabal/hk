@@ -16,6 +16,8 @@ projects[adminimal_admin_menu][version] = "1.5"
 ; until 2.8 is released, recommended for cdn
 projects[advagg][version] = "2.x-dev"
 
+projects[autocomplete_deluxe][version] = 2.1
+
 projects[block_class][version] = "2.1"
 
 projects[cdn][version] = "2.6"
@@ -276,7 +278,7 @@ projects[relation][version] = "1.0-rc7"
 
 projects[search_api][version] = "1.14"
 
-projects[search_api_autocomplete][version] = "1.1"
+;projects[search_api_autocomplete][version] = "1.1"
 
 projects[search_api_db][version] = "1.4"
 ; Stopped BOA Migrate Fehler https://www.drupal.org/node/2428693
