@@ -112,7 +112,7 @@ projects[link][version] = "1.3"
 
 projects[name][version] = "1.9"
 
-projects[nodereferrer][version] = "1.0-beta1"
+;projects[nodereferrer][version] = "1.0-beta1"
 
 projects[phone][version] = "1.0-beta1"
 
