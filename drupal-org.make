@@ -59,8 +59,7 @@ projects[devel_image_provider][version] = "1.x-dev"
 ;projects[profiler_builder][version] = "1.2"
 
 projects[ds][version] = "2.7"
-
-projects[features][version] = "2.4"
+projects[features][version] = "2.5"
 
 projects[features_builder][version] = "1.x-dev"
 
@@ -128,7 +127,7 @@ projects[flexslider][version] = "2.0-alpha3"
 
 projects[flexslider_views_slideshow][version] = "2.x-dev"
 
-projects[manualcrop][version] = "1.4"
+projects[manualcrop][version] = "1.5"
 
 projects[smartcrop][version] = "1.0-beta2"
 
@@ -176,7 +175,7 @@ projects[session_api][version] = "1.0-rc1"
 
 projects[session_cache][version] = "1.3"
 
-;projects[colorbox_node][version] = "3.4"
+;projects[colorbox_node][version] = "3.5"
 
 projects[diff][version] = "3.2"
 
