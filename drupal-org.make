@@ -295,7 +295,7 @@ projects[search_api_sorts][version] = "1.5"
 
 projects[facetapi][version] = "1.5"
 
-projects[facetapi_bonus][version] = "1.1"
+projects[facetapi_bonus][version] = "1.x-dev" ; needed for Resest link
 
 projects[facetapi_pretty_paths][version] = "1.4"
 
@@ -310,6 +310,8 @@ projects[content_menu][version] = "1.0"
 projects[jquery_update][version] = "2.5"
 
 projects[select2][version] = "1.x-dev"
+; https://www.drupal.org/node/2459015
+projects[select2][patch][] = "https://www.drupal.org/files/issues/AJAX_settings_race_condition-2459015-1.patch"
 
 projects[wysiwyg][version] = "2.x-dev"
 
