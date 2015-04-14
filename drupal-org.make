@@ -287,7 +287,7 @@ projects[search_api_location][version] = "2.0-beta2"
 
 projects[search_api_override][version] = "1.0-rc1"
 
-projects[search_api_ranges][version] = "1.5"
+projects[search_api_ranges][version] = "1.x-dev" ; needed for no 502 dropdown ranges
 
 projects[search_api_solr][version] = "1.6"
 
@@ -302,6 +302,10 @@ projects[facetapi_pretty_paths][version] = "1.4"
 projects[facetapi_tagcloud][version] = "1.0-beta1"
 
 projects[facetapi_select][version] = "1.x-dev"
+
+projects[facetapi_i18n][version] = ""
+;
+projects[facetapi_i18n][patch][] = "https://www.drupal.org/files/issues/facetapi_i18n_strings_not_translatable-1403082-13.patch"
 
 projects[fontello][version] = "1.0"
 
