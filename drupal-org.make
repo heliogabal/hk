@@ -153,7 +153,9 @@ projects[tmgmt][version] = 1.0-rc1
 
 projects[i18n][version] = "1.12"
 # Translate Field Pre- and Suffix, not passing tests: https://www.drupal.org/node/1221208
-projects[i18n][patch][] = "https://www.drupal.org/files/issues/i18n_field-i18n_field-should-translate-prefix-suffix-of-number-fields-1221208-41.patch"
+;projects[i18n][patch][] = "https://www.drupal.org/files/issues/i18n_field-i18n_field-should-translate-prefix-suffix-of-number-fields-1221208-41.patch"
+
+projects[localize_fields][version] = "1.3"
 
 projects[i18nviews][version] = "3.x-dev"
 
@@ -303,7 +305,7 @@ projects[facetapi_tagcloud][version] = "1.0-beta1"
 
 projects[facetapi_select][version] = "1.x-dev"
 
-projects[facetapi_i18n][version] = ""
+projects[facetapi_i18n][version] = "1.0-beta2"
 ;
 projects[facetapi_i18n][patch][] = "https://www.drupal.org/files/issues/facetapi_i18n_strings_not_translatable-1403082-13.patch"
 

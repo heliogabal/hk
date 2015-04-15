@@ -149,13 +149,15 @@ dependencies[] = entity_translation_i18n_menu
 ; Multilingual - Internationalization
 dependencies[] = i18n
 dependencies[] = i18n_menu
-dependencies[] = i18n_node
+;dependencies[] = i18n_node
 dependencies[] = i18n_path
 dependencies[] = i18n_string
-dependencies[] = i18n_taxonomy
+;dependencies[] = i18n_taxonomy
 dependencies[] = i18n_translation
 dependencies[] = i18n_variable
 dependencies[] = i18nviews
+dependencies[] = localize_fields
+dependencies[] = facetapi_i18n
 ; Other
 dependencies[] = breadcrumbs_by_path
 dependencies[] = breakpoints
