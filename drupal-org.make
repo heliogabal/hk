@@ -394,6 +394,13 @@ projects[hk_flexslider][download][url] = "https://github.com/heliogabal/hk_flexs
 projects[hk_flexslider][subdir] = "custom"
 projects[hk_flexslider][options][working-copy] = TRUE
 
+;hk_search
+projects[hk_search][type] = module
+projects[hk_search][download][type] = "git"
+projects[hk_search][download][url] = "https://github.com/heliogabal/hk_search.git"
+projects[hk_search][subdir] = "custom"
+projects[hk_search][options][working-copy] = TRUE
+
 ;ip_geoloc_patched
 ;projects[ip_geoloc][type] = module
 ;projects[ip_geoloc][download][type] = "git"
