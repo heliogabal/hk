@@ -291,7 +291,8 @@ projects[search_api_location][version] = "2.0-beta2"
 
 projects[search_api_override][version] = "1.0-rc1"
 
-projects[search_api_ranges][version] = "1.x-dev" ; needed for no 502 dropdown ranges
+projects[search_api_ranges][version] = "1.x-dev"
+;needed for no 502 dropdown ranges
 
 projects[search_api_solr][version] = "1.6"
 
@@ -299,7 +300,8 @@ projects[search_api_sorts][version] = "1.5"
 
 projects[facetapi][version] = "1.5"
 
-projects[facetapi_bonus][version] = "1.x-dev" ; needed for Resest link
+projects[facetapi_bonus][version] = "1.x-dev"
+;needed for Resest link
 
 projects[facetapi_pretty_paths][version] = "1.4"
 
