@@ -1,6 +1,6 @@
 ; Packaging information for hk
 name = "hk"
-old_short_name = Bear
+;old_short_name = Bear
 description = "Install Profile for Herbert & Kohlmeyer"
 exclusive = "1"
 core = "7.x"
