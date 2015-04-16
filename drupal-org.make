@@ -179,7 +179,7 @@ projects[session_api][version] = "1.0-rc1"
 
 projects[session_cache][version] = "1.3"
 
-;projects[colorbox_node][version] = "3.5"
+projects[colorbox_node][version] = "3.5"
 
 projects[diff][version] = "3.2"
 
@@ -282,6 +282,8 @@ projects[relation][version] = "1.0-rc7"
 projects[search_api][version] = "1.14"
 
 ;projects[search_api_autocomplete][version] = "1.1"
+
+projects[search_api_ajax][version] = "1.2"
 
 projects[search_api_db][version] = "1.4"
 ; Stopped BOA Migrate Fehler https://www.drupal.org/node/2428693
