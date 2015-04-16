@@ -184,6 +184,8 @@ projects[colorbox_node][version] = "3.5"
 projects[diff][version] = "3.2"
 
 projects[entity][version] = "1.6"
+; https://www.drupal.org/node/2241979
+projects[entity][patch][] = "https://www.drupal.org/files/issues/entity_defaults_rebuild-2241979-19_0.patch"
 
 ;projects[entity2text][version] = "1.0-alpha2"
 
@@ -192,6 +194,8 @@ projects[entity_view_mode][version] = "1.0-rc1"
 ;projects[entityform][version] = "2.0-rc1"
 
 projects[entity_rules][version] = "1.0-alpha4"
+; Labels in Features https://www.drupal.org/node/2187363
+projects[entity_rules][patch][] = "https://www.drupal.org/files/issues/entity_rules-2187363-2.patch"
 
 projects[equalheights][version] = "2.4"
 
