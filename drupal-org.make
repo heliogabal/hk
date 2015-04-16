@@ -13,8 +13,7 @@ projects[admin_views][version] = "1.4"
 
 projects[adminimal_admin_menu][version] = "1.5"
 
-; until 2.8 is released, recommended for cdn
-projects[advagg][version] = "2.x-dev"
+projects[advagg][version] = "2.8"
 
 projects[autocomplete_deluxe][version] = 2.1
 
@@ -58,7 +57,8 @@ projects[devel_image_provider][version] = "1.x-dev"
 
 ;projects[profiler_builder][version] = "1.2"
 
-projects[ds][version] = "2.7"
+projects[ds][version] = "2.8"
+
 projects[features][version] = "2.5"
 
 projects[features_builder][version] = "1.x-dev"
@@ -128,6 +128,8 @@ projects[flexslider][version] = "2.0-alpha3"
 projects[flexslider_views_slideshow][version] = "2.x-dev"
 
 projects[manualcrop][version] = "1.5"
+
+projects[maxlength][version] = "3.2"
 
 projects[smartcrop][version] = "1.0-beta2"
 
