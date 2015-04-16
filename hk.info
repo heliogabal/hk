@@ -104,7 +104,7 @@ dependencies[] = geofield
 dependencies[] = link
 dependencies[] = name
 dependencies[] = node_reference
-dependencies[] = nodereferrer
+;dependencies[] = nodereferrer
 dependencies[] = phone
 dependencies[] = references
 dependencies[] = viewfield
@@ -216,7 +216,7 @@ dependencies[] = relation_feeds
 dependencies[] = relation_ui
 ; Search
 dependencies[] = search_api
-dependencies[] = search_api_autocomplete
+;dependencies[] = search_api_autocomplete
 dependencies[] = search_api_db
 dependencies[] = search_api_facetapi
 dependencies[] = search_api_location
