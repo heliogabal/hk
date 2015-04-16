@@ -96,6 +96,8 @@ projects[entityreference][patch][] = "https://www.drupal.org/files/no-label-ref-
 projects[references_dialog] = "1.0-beta1"
 ; https://www.drupal.org/node/2375741
 projects[references_dialog][patch][] = "https://www.drupal.org/files/issues/2375741-fixing_typo-1.patch"
+; until stable version https://www.drupal.org/node/2315905
+projects[references_dialog][patch][] = "https://www.drupal.org/files/issues/references_dialog_beta1-fix_theme_links-2315905-20.patch"
 
 projects[field_group][version] = "1.4"
 projects[field_group][patch][] = "https://www.drupal.org/files/issues/field_group-accordion-heightStyle-content-2173937-8.patch"
