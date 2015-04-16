@@ -43,7 +43,7 @@ dependencies[] = crm_core_user_sync
 ; Chaos tool suite
 dependencies[] = ctools
 dependencies[] = page_manager
-dependencies[] = page_manager_templates
+;dependencies[] = page_manager_templates
 dependencies[] = views_content
 ; Core
 dependencies[] = block
@@ -241,7 +241,7 @@ dependencies[] = variable_realm
 dependencies[] = variable_store
 ; Views
 dependencies[] = views
-dependencies[] = views_accelerator
+;dependencies[] = views_accelerator
 dependencies[] = views_bulk_operations
 dependencies[] = views_cache_bully
 ;dependencies[] = views_filters_selective
@@ -264,4 +264,5 @@ dependencies[] = features
 dependencies[] = hk_ct_object
 dependencies[] = hk_ct_apart
 dependencies[] = hk_exposed_filters
+dependencies[] = hk_search
 
