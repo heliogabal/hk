@@ -89,7 +89,6 @@ projects[compact_forms][version] = "1.0"
 
 projects[computed_field][version] = "1.0"
 
-;projects[conditional_fields][version] = "3.0-alpha1"
 projects[field_conditional_state][version] = "2.1"
 
 projects[dhtml_menu][version] = "1.x-dev"
@@ -236,9 +235,6 @@ projects[leaflet_mapbox][version] = "1.2"
 projects[leaflet_markercluster][version] = "1.2"
 ;projects[leaflet_markercluster][version] = "1.x-dev"
 ;libraries[leaflet_markercluster][patch][] = "https://www.drupal.org/files/issues/leaflet_markercluster-leaflet-compatibility.patch"
-
-
-;projects[leaflet_more_maps][version] = "1.10"
 
 projects[libraries][version] = "2.2"
 
