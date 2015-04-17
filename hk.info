@@ -226,23 +226,23 @@ dependencies[] = entitycache
 ;dependencies[] = relation_ui
 
 ; Search
-dependencies[] = search_api
+;dependencies[] = search_api
 ;dependencies[] = search_api_autocomplete
 ;dependencies[] = search_api_db
-dependencies[] = search_api_facetapi
-dependencies[] = search_api_location
-dependencies[] = search_api_override
-dependencies[] = search_api_ranges
-dependencies[] = search_api_solr
-dependencies[] = search_api_sorts
-dependencies[] = search_api_views
+;dependencies[] = search_api_facetapi
+;dependencies[] = search_api_location
+;dependencies[] = search_api_override
+;dependencies[] = search_api_ranges
+;dependencies[] = search_api_solr
+;dependencies[] = search_api_sorts
+;dependencies[] = search_api_views
 
 ; Search Toolkit
-dependencies[] = current_search
-dependencies[] = facetapi
-dependencies[] = facetapi_bonus
-dependencies[] = facetapi_pretty_paths
-dependencies[] = facetapi_tagcloud
+;dependencies[] = current_search
+;dependencies[] = facetapi
+;dependencies[] = facetapi_bonus
+;dependencies[] = facetapi_pretty_paths
+;dependencies[] = facetapi_tagcloud
 
 ; User interface
 dependencies[] = content_menu
@@ -251,8 +251,8 @@ dependencies[] = wysiwyg
 
 ; Variable
 dependencies[] = variable
-dependencies[] = variable_realm
-dependencies[] = variable_store
+;dependencies[] = variable_realm
+;dependencies[] = variable_store
 
 ; Views
 dependencies[] = views
