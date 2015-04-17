@@ -113,9 +113,13 @@ function hk_install() {
     // 'bear_habitat_local',
     // 'bear_show',
     // 'hk_content_types',
+     'hk_base',
      'hk_ct_object',
      'hk_ct_apart',
-     'hk_search'
+     'hk_ct_page',
+     'hk_search',
+     'hk_admin',
+     'hk_translations'
   );
   features_revert($features);
   // ignore any rebuild messages

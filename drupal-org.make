@@ -405,12 +405,12 @@ projects[hk_admin][download][url] = "https://github.com/heliogabal/hk_admin.git"
 projects[hk_admin][subdir] = "features"
 projects[hk_admin][options][working-copy] = TRUE
 
-;hk_map
-projects[hk_map][type] = module
-projects[hk_map][download][type] = "git"
-projects[hk_map][download][url] = "https://github.com/heliogabal/hk_map.git"
-projects[hk_map][subdir] = "features"
-projects[hk_map][options][working-copy] = TRUE
+;hk_search
+projects[hk_search][type] = module
+projects[hk_search][download][type] = "git"
+projects[hk_search][download][url] = "https://github.com/heliogabal/hk_search.git"
+projects[hk_search][subdir] = "features"
+projects[hk_search][options][working-copy] = TRUE
 
 ;hk_translations
 projects[hk_translations][type] = module
