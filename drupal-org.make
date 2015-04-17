@@ -385,6 +385,27 @@ projects[hk_ct_apart][download][url] = "https://github.com/heliogabal/hk_ct_apar
 projects[hk_ct_apart][subdir] = "features"
 projects[hk_ct_apart][options][working-copy] = TRUE
 
+;hk_ct_page
+projects[hk_ct_page][type] = module
+projects[hk_ct_page][download][type] = "git"
+projects[hk_ct_page][download][url] = "https://github.com/heliogabal/hk_ct_page.git"
+projects[hk_ct_page][subdir] = "features"
+projects[hk_ct_page][options][working-copy] = TRUE
+
+;hk_admin
+projects[hk_admin][type] = module
+projects[hk_admin][download][type] = "git"
+projects[hk_admin][download][url] = "https://github.com/heliogabal/hk_admin.git"
+projects[hk_admin][subdir] = "features"
+projects[hk_admin][options][working-copy] = TRUE
+
+;hk_map
+projects[hk_map][type] = module
+projects[hk_map][download][type] = "git"
+projects[hk_map][download][url] = "https://github.com/heliogabal/hk_map.git"
+projects[hk_map][subdir] = "features"
+projects[hk_map][options][working-copy] = TRUE
+
 ;hk_exposed_filters
 projects[hk_exposed_filters][type] = module
 projects[hk_exposed_filters][download][type] = "git"
