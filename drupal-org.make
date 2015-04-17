@@ -61,7 +61,11 @@ projects[ds][version] = "2.8"
 
 projects[features][version] = "2.5"
 
-projects[features_builder][version] = "1.x-dev"
+projects[features_translations][version] = "1.0"
+
+projects[features_extra][version] = "1.0-beta1"
+
+;projects[features_builder][version] = "1.x-dev"
 
 projects[entityreference_feeds][version] = "1.0-beta2"
 
@@ -364,12 +368,12 @@ projects[xmlsitemap][version] = "2.2"
 
 ; +++++ Features +++++
 
-;hk_content_types
-;projects[hk_content_types][type] = module
-;projects[hk_content_types][download][type] = "git"
-;projects[hk_content_types][download][url] = "https://github.com/heliogabal/hk_content_types.git"
-;projects[hk_content_types][subdir] = "features"
-;projects[hk_content_types][options][working-copy] = TRUE
+;hk_base
+projects[hk_base][type] = module
+projects[hk_base][download][type] = "git"
+projects[hk_base][download][url] = "https://github.com/heliogabal/hk_base.git"
+projects[hk_base][subdir] = "features"
+projects[hk_base][options][working-copy] = TRUE
 
 ;hk_ct_object
 projects[hk_ct_object][type] = module
@@ -405,6 +409,17 @@ projects[hk_map][download][type] = "git"
 projects[hk_map][download][url] = "https://github.com/heliogabal/hk_map.git"
 projects[hk_map][subdir] = "features"
 projects[hk_map][options][working-copy] = TRUE
+
+;hk_translations
+projects[hk_translations][type] = module
+projects[hk_translations][download][type] = "git"
+projects[hk_translations][download][url] = "https://github.com/heliogabal/hk_translations.git"
+projects[hk_translations][subdir] = "features"
+projects[hk_translations][options][working-copy] = TRUE
+
+
+
+; custom modules
 
 ;hk_exposed_filters
 projects[hk_exposed_filters][type] = module
