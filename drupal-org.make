@@ -67,6 +67,8 @@ projects[features_extra][version] = "1.0-beta1"
 
 ;projects[features_builder][version] = "1.x-dev"
 
+projects[format_number][version] = "1.x-dev"
+
 projects[entityreference_feeds][version] = "1.0-beta2"
 
 projects[entityreference_prepopulate][version] = "1.5"
