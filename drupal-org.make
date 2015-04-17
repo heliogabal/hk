@@ -165,6 +165,9 @@ projects[i18n][version] = "1.12"
 # Translate Field Pre- and Suffix, not passing tests: https://www.drupal.org/node/1221208
 ;projects[i18n][patch][] = "https://www.drupal.org/files/issues/i18n_field-i18n_field-should-translate-prefix-suffix-of-number-fields-1221208-41.patch"
 
+;projects[i18n][patch][] = "https://www.drupal.org/files/issues/1681414-29-i18n-fatal_error_installlll.patch"
+;projects[i18n][patch][] = "https://www.drupal.org/files/issues/i18n_string-undefined-method-2082573-13.patch"
+
 projects[localize_fields][version] = "1.3"
 
 projects[i18nviews][version] = "3.x-dev"
