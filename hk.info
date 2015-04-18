@@ -278,4 +278,4 @@ dependencies[] = hk_ct_apart
 dependencies[] = hk_ct_page
 dependencies[] = hk_search
 dependencies[] = hk_admin
-dependencies[] = hk_translations
+;dependencies[] = hk_translations
