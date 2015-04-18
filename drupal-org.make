@@ -28,18 +28,14 @@ projects[module_filter][version] = "2.0"
 
 ;projects[bear][version] = "1.x-dev"
 
-;projects[bear_hunt][version] = "1.x-dev"
-
 ;projects[bear_necessities][version] = "1.7-alpha1"
-
-;projects[bear_show][version] = "1.x-dev"
 
 projects[better_exposed_filters][version] = 3.2
 
 projects[better_formats][version] = "1.0-beta1"
 
-projects[cer][version] = 3.0-alpha7
-projects[cer][patch][] = "https://www.drupal.org/files/issues/2331553-cer_left_exception-1.patch"
+;projects[cer][version] = 3.0-alpha7
+;projects[cer][patch][] = "https://www.drupal.org/files/issues/2331553-cer_left_exception-1.patch"
 
 projects[crm_core][version] = "0.980"
 
@@ -55,8 +51,6 @@ projects[devel][version] = "1.5"
 
 projects[devel_image_provider][version] = "1.x-dev"
 
-;projects[profiler_builder][version] = "1.2"
-
 projects[ds][version] = "2.8"
 
 projects[features][version] = "2.5"
@@ -64,8 +58,6 @@ projects[features][version] = "2.5"
 projects[features_translations][version] = "1.0"
 
 projects[features_extra][version] = "1.0-beta1"
-
-;projects[features_builder][version] = "1.x-dev"
 
 projects[format_number][version] = "1.x-dev"
 
@@ -117,8 +109,6 @@ projects[geofield][version] = "2.3"
 projects[link][version] = "1.3"
 
 projects[name][version] = "1.9"
-
-;projects[nodereferrer][version] = "1.0-beta1"
 
 projects[phone][version] = "1.0-beta1"
 
@@ -209,8 +199,6 @@ projects[entity_rules][patch][] = "https://www.drupal.org/files/issues/entity_ru
 
 projects[equalheights][version] = "2.4"
 
-;projects[form_builder][version] = "1.7"
-
 projects[geocoder][version] = "1.2"
 
 projects[geophp][version] = "1.7"
@@ -219,7 +207,7 @@ projects[habitat][version] = "1.0"
 
 projects[icon][version] = "1.0-beta5"
 ; Allow Icons to replace menu items https://www.drupal.org/node/2366055
-projects[icon][patch][] = "https://www.drupal.org/files/issues/2366055-icon-menu-replace-2.patch"
+;projects[icon][patch][] = "https://www.drupal.org/files/issues/2366055-icon-menu-replace-2.patch"
 
 ;projects[ip_geoloc][version] = "1.26"
 projects[ip_geoloc][version] = "1.x-dev"
@@ -292,13 +280,11 @@ projects[relation][version] = "1.0-rc7"
 
 projects[search_api][version] = "1.14"
 
-;projects[search_api_autocomplete][version] = "1.1"
-
 projects[search_api_ajax][version] = "1.2"
 
-projects[search_api_db][version] = "1.4"
+;projects[search_api_db][version] = "1.4"
 ; Stopped BOA Migrate Fehler https://www.drupal.org/node/2428693
-projects[search_api_db][patch][] = "https://www.drupal.org/files/issues/entity-type-indhold-doest-specify-a-type-for-the-nid-property-2428693-2.patch"
+;projects[search_api_db][patch][] = "https://www.drupal.org/files/issues/entity-type-indhold-doest-specify-a-type-for-the-nid-property-2428693-2.patch"
 
 projects[search_api_location][version] = "2.0-beta2"
 
@@ -318,7 +304,7 @@ projects[facetapi_bonus][version] = "1.x-dev"
 
 projects[facetapi_pretty_paths][version] = "1.4"
 
-projects[facetapi_tagcloud][version] = "1.0-beta1"
+;projects[facetapi_tagcloud][version] = "1.0-beta1"
 
 projects[facetapi_select][version] = "1.x-dev"
 
@@ -342,14 +328,12 @@ projects[variable][version] = "2.5"
 
 projects[views][version] = "3.10"
 projects[views][patch][] = "https://www.drupal.org/files/issues/views-ajax-nginx-1036962-71.patch"
-#Needed for views selective filters
+;Needed for views selective filters
 ;projects[views][patch][] = "https://www.drupal.org/files/issues/aggregation_not_working-2159347-87.patch"
-#Geofield Search API bug
+;Geofield Search API bug
 https://www.drupal.org/files/issues/2115269-views_handler_field_field_get_value_fatal_error_clone_method_called_on_non_object-5.patch
 
 projects[views_accelerator][version] = "1.0-beta1"
-
-;projects[views_selective_filters][version] = "1.3"
 
 projects[views_bulk_operations][version] = "3.2"
 
@@ -358,8 +342,6 @@ projects[views_flag_refresh][version] = "1.3"
 projects[views_fluid_grid][version] = "3.0"
 
 projects[views_pdf][version] = "1.4"
-
-;projects[views_slideshow][version] = "3.1"
 
 projects[webform][version] = "4.7"
 
@@ -527,13 +509,13 @@ libraries[leaflet_markercluster][download][url] = "https://github.com/Leaflet/Le
 libraries[leaflet_markercluster][directory_name] = "leaflet_markercluster"
 libraries[leaflet_markercluster][destination] = "libraries"
 
-;; Leaflet.fullscreen plugin
+; Leaflet.fullscreen plugin
 libraries[leaflet_fullscreen][download][type] = "git"
 libraries[leaflet_fullscreen][download][revision] = "2becb29"
 libraries[leaflet_fullscreen][download][url] = "https://github.com/Leaflet/Leaflet.fullscreen.git"
 libraries[leaflet_fullscreen][directory_name] = "leaflet-fullscreen"
 
-;; Views PDF
+; Views PDF
 libraries[tcpdf][type] = "libraries"
 libraries[tcpdf][download][type] = "file"
 libraries[tcpdf][download][url] = "http://tinyurl.com/tcpdf-6-2-6-zip"
