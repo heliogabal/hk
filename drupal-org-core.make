@@ -18,3 +18,5 @@ projects[drupal][patch][] = "http://drupal.org/files/issues/drupal-undefinedinde
 projects[drupal][patch][] = "http://drupal.org/files/issues/death-to-tabledrag.patch"
 ;projects[drupal][patch][] = "http://drupal.org/files/schema-relative-1783278-7-D7-do-not-test.patch"
 ;projects[drupal][patch][] = "http://drupal.org/files/issues/drupal-2285917-3.patch"
+; https://www.drupal.org/node/2418147
+projects[drupal][patch][] = "https://www.drupal.org/files/issues/2418147-d7-drupal_static_reset-on-module-changes-1.patch"
