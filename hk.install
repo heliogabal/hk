@@ -118,7 +118,7 @@ function hk_install() {
      'hk_ct_apart',
      'hk_ct_page',
      'hk_search',
-     'hk_admin',
+     'hk_admin'//,
      // 'hk_translations'
   // );
   // features_revert($features);
