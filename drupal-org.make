@@ -155,6 +155,8 @@ projects[i18n][version] = "1.12"
 ;projects[i18n][patch][] = "https://www.drupal.org/files/issues/i18n_field-i18n_field-should-translate-prefix-suffix-of-number-fields-1221208-41.patch"
 ; install error patch https://www.drupal.org/node/1681414
 projects[i18n][patch][] = "https://www.drupal.org/files/static_reset.patch"
+; https://www.drupal.org/node/2082573
+projects[i18n][patch][] = "https://www.drupal.org/files/issues/i18n_string-undefined-method-2082573-13.patch"
 ;projects[i18n][patch][] = "https://www.drupal.org/files/issues/1681414-29-i18n-fatal_error_installlll.patch"
 ;projects[i18n][patch][] = "https://www.drupal.org/files/issues/i18n_string-undefined-method-2082573-13.patch"
 
