@@ -356,33 +356,40 @@ projects[xmlsitemap][version] = "2.2"
 
 ; +++++ Features +++++
 
-;hk_base
-projects[hk_base][type] = module
-projects[hk_base][download][type] = "git"
-projects[hk_base][download][url] = "https://github.com/heliogabal/hk_base.git"
-projects[hk_base][subdir] = "features"
-projects[hk_base][options][working-copy] = TRUE
+# ;hk_base
+# projects[hk_base][type] = module
+# projects[hk_base][download][type] = "git"
+# projects[hk_base][download][url] = "https://github.com/heliogabal/hk_base.git"
+# projects[hk_base][subdir] = "features"
+# projects[hk_base][options][working-copy] = TRUE
 
-;hk_ct_object
-projects[hk_ct_object][type] = module
-projects[hk_ct_object][download][type] = "git"
-projects[hk_ct_object][download][url] = "https://github.com/heliogabal/hk_ct_object.git"
-projects[hk_ct_object][subdir] = "features"
-projects[hk_ct_object][options][working-copy] = TRUE
+# ;hk_ct_object
+# projects[hk_ct_object][type] = module
+# projects[hk_ct_object][download][type] = "git"
+# projects[hk_ct_object][download][url] = "https://github.com/heliogabal/hk_ct_object.git"
+# projects[hk_ct_object][subdir] = "features"
+# projects[hk_ct_object][options][working-copy] = TRUE
 
-;hk_ct_apart
-projects[hk_ct_apart][type] = module
-projects[hk_ct_apart][download][type] = "git"
-projects[hk_ct_apart][download][url] = "https://github.com/heliogabal/hk_ct_apart.git"
-projects[hk_ct_apart][subdir] = "features"
-projects[hk_ct_apart][options][working-copy] = TRUE
+# ;hk_ct_apart
+# projects[hk_ct_apart][type] = module
+# projects[hk_ct_apart][download][type] = "git"
+# projects[hk_ct_apart][download][url] = "https://github.com/heliogabal/hk_ct_apart.git"
+# projects[hk_ct_apart][subdir] = "features"
+# projects[hk_ct_apart][options][working-copy] = TRUE
 
-;hk_ct_page
-projects[hk_ct_page][type] = module
-projects[hk_ct_page][download][type] = "git"
-projects[hk_ct_page][download][url] = "https://github.com/heliogabal/hk_ct_page.git"
-projects[hk_ct_page][subdir] = "features"
-projects[hk_ct_page][options][working-copy] = TRUE
+# ;hk_ct_page
+# projects[hk_ct_page][type] = module
+# projects[hk_ct_page][download][type] = "git"
+# projects[hk_ct_page][download][url] = "https://github.com/heliogabal/hk_ct_page.git"
+# projects[hk_ct_page][subdir] = "features"
+# projects[hk_ct_page][options][working-copy] = TRUE
+
+;hk_ct
+projects[hk_ct][type] = module
+projects[hk_ct][download][type] = "git"
+projects[hk_ct][download][url] = "https://github.com/heliogabal/hk_ct.git"
+projects[hk_ct][subdir] = "features"
+projects[hk_ct][options][working-copy] = TRUE
 
 ;hk_admin
 projects[hk_admin][type] = module
