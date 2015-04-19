@@ -90,7 +90,7 @@ function hk_install() {
     $query->values($block);
   }
   $query->execute();
-  Create a default role for site administrators, with all available permissions assigned.
+  //Create a default role for site administrators, with all available permissions assigned.
   $admin_role = new stdClass();
   $admin_role->name = 'administrator';
   $admin_role->weight = 10;
