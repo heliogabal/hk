@@ -163,6 +163,8 @@ projects[i18n][patch][] = "https://www.drupal.org/files/issues/i18n_string-undef
 projects[localize_fields][version] = "1.3"
 
 projects[i18nviews][version] = "3.x-dev"
+; https://www.drupal.org/node/1653170
+projects[i18nviews][patch][] = "https://www.drupal.org/files/i18nviews-1653170.patch"
 
 projects[l10n_update][version] = 2.0
 
@@ -231,7 +233,7 @@ projects[libraries][version] = "2.2"
 
 projects[linkit][version] = "2.7"
 
-projects[mailsystem][version] = "2.34"
+;projects[mailsystem][version] = "2.34"
 
 ;projects[mandrill][version] = "2.1"
 
