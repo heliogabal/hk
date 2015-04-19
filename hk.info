@@ -159,7 +159,7 @@ dependencies[] = i18n_string
 ;dependencies[] = i18n_variable
 dependencies[] = i18nviews
 dependencies[] = localize_fields
-dependencies[] = facetapi_i18n
+;dependencies[] = facetapi_i18n
 
 ;; NIE AKTIVIEREN !
 ;dependencies[] = i18n_taxonomy
@@ -186,7 +186,7 @@ dependencies[] = job_scheduler
 dependencies[] = libraries
 dependencies[] = linkit
 dependencies[] = mailsystem
-dependencies[] = mandrill
+;dependencies[] = mandrill
 ;dependencies[] = mandrill_reports
 ;dependencies[] = mandrill_template
 ;dependencies[] = mandrill_activity
