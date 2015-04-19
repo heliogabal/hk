@@ -19,8 +19,8 @@ projects[autocomplete_deluxe][version] = 2.1
 
 projects[block_class][version] = "2.1"
 
-projects[cdn][version] = "2.6"
-projects[cdn][patch][] = "https://www.drupal.org/files/issues/1514182-IE-font-face-CSS-hack-URL-broken-68.patch"
+;projects[cdn][version] = "2.6"
+;projects[cdn][patch][] = "https://www.drupal.org/files/issues/1514182-IE-font-face-CSS-hack-URL-broken-68.patch"
 
 ;projects[coffee][version] = "2.2"
 
@@ -233,7 +233,7 @@ projects[linkit][version] = "2.7"
 
 projects[mailsystem][version] = "2.34"
 
-projects[mandrill][version] = "2.1"
+;projects[mandrill][version] = "2.1"
 
 projects[menu_block][version] = "2.5"
 
@@ -311,9 +311,9 @@ projects[facetapi_pretty_paths][version] = "1.4"
 
 projects[facetapi_select][version] = "1.x-dev"
 
-projects[facetapi_i18n][version] = "1.0-beta2"
+;projects[facetapi_i18n][version] = "1.0-beta2"
 ;
-projects[facetapi_i18n][patch][] = "https://www.drupal.org/files/issues/facetapi_i18n_strings_not_translatable-1403082-13.patch"
+;projects[facetapi_i18n][patch][] = "https://www.drupal.org/files/issues/facetapi_i18n_strings_not_translatable-1403082-13.patch"
 
 projects[fontello][version] = "1.0"
 
