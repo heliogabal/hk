@@ -9,11 +9,9 @@ core = "7.x"
 ; ----------
 ; Administration
 dependencies[] = admin_menu
-;dependencies[] = admin_menu_toolbar
 dependencies[] = admin_views
 dependencies[] = adminimal_admin_menu
 dependencies[] = block_class
-;dependencies[] = coffee
 dependencies[] = module_filter
 dependencies[] = fpa
 
@@ -21,6 +19,7 @@ dependencies[] = fpa
 dependencies[] = compact_forms
 dependencies[] = dhtml_menu
 dependencies[] = better_formats
+dependencies[] = diff
 ;dependencies[] = better_exposed_filters
 ;dependencies[] = select2
 
@@ -51,7 +50,7 @@ dependencies[] = field_sql_storage
 dependencies[] = field_ui
 dependencies[] = file
 dependencies[] = filter
-dependencies[] = help
+;dependencies[] = help
 dependencies[] = image
 dependencies[] = list
 dependencies[] = locale
@@ -84,12 +83,12 @@ dependencies[] = user
 dependencies[] = ds
 dependencies[] = ds_extras
 dependencies[] = ds_forms
-dependencies[] = ds_ui
+;dependencies[] = ds_ui
 ; Feeds
-dependencies[] = feeds
-dependencies[] = feeds_tamper
-dependencies[] = feeds_tamper_ui
-dependencies[] = feeds_ui
+;dependencies[] = feeds
+;dependencies[] = feeds_tamper
+;dependencies[] = feeds_tamper_ui
+;dependencies[] = feeds_ui
 ;dependencies[] = entityreference_feeds
 
 ; Fields
@@ -106,7 +105,7 @@ dependencies[] = phone
 
 ; Flags
 dependencies[] = flag
-dependencies[] = flag_actions
+;dependencies[] = flag_actions
 
 ; FlexSlider
 dependencies[] = flexslider
@@ -114,14 +113,14 @@ dependencies[] = flexslider_fields
 dependencies[] = flexslider_views
 
 ; Image
-dependencies[] = manualcrop
-dependencies[] = smartcrop
+;dependencies[] = manualcrop
+;dependencies[] = smartcrop
 
 ; Mapping
-dependencies[] = leaflet
-dependencies[] = leaflet_mapbox
-dependencies[] = leaflet_markercluster
-dependencies[] = ip_geoloc
+;dependencies[] = leaflet
+;dependencies[] = leaflet_mapbox
+;dependencies[] = leaflet_markercluster
+;dependencies[] = ip_geoloc
 
 ; Media
 dependencies[] = file_entity
@@ -170,7 +169,6 @@ dependencies[] = translation_helpers
 dependencies[] = breakpoints
 dependencies[] = colorbox
 dependencies[] = colorbox_node
-dependencies[] = diff
 ;dependencies[] = entity
 ;dependencies[] = entity_view_mode
 ; deaktiviert lassen
@@ -196,7 +194,7 @@ dependencies[] = menu_block
 ;dependencies[] = multiform
 dependencies[] = pathauto
 dependencies[] = redirect
-dependencies[] = robotstxt
+;dependencies[] = robotstxt
 ;dependencies[] = rules
 ;dependencies[] = rules_ui
 dependencies[] = strongarm
@@ -212,7 +210,7 @@ dependencies[] = transliteration
 dependencies[] = globalredirect
 
 ; Performance and scalability
-dependencies[] = entitycache
+;dependencies[] = entitycache
 ;dependencies[] = js
 ;dependencies[] = cdn
 ;dependencies[] = httprl
@@ -264,9 +262,9 @@ dependencies[] = views
 ;dependencies[] = views_accelerator
 dependencies[] = views_bulk_operations
 ;dependencies[] = views_cache_bully
-dependencies[] = views_flag_refresh
-dependencies[] = views_fluid_grid
-dependencies[] = views_pdf
+;dependencies[] = views_flag_refresh
+;dependencies[] = views_fluid_grid
+;dependencies[] = views_pdf
 ;dependencies[] = php_filter
 dependencies[] = views_ui
 
