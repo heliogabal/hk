@@ -69,10 +69,10 @@ dependencies[] = translation
 dependencies[] = user
 
 ; Date/Time
-dependencies[] = date
-dependencies[] = date_api
-dependencies[] = date_popup
-dependencies[] = date_views
+;dependencies[] = date
+;dependencies[] = date_api
+;dependencies[] = date_popup
+;dependencies[] = date_views
 
 ; Development
 ;dependencies[] = devel
@@ -133,7 +133,7 @@ dependencies[] = media_wysiwyg
 ;dependencies[] = plupload
 
 ; Message
-dependencies[] = message
+;dependencies[] = message
 
 ; Migration
 ;dependencies[] = migrate
@@ -150,7 +150,7 @@ dependencies[] = translation_helpers
 
 ; Multilingual - Internationalization
 ;dependencies[] = i18n
-:dependencies[] = i18n_menu
+;dependencies[] = i18n_menu
 
 ;dependencies[] = i18n_path
 ;dependencies[] = i18n_string
@@ -185,8 +185,9 @@ dependencies[] = fontello
 dependencies[] = job_scheduler
 dependencies[] = libraries
 dependencies[] = linkit
-dependencies[] = mailsystem
-dependencies[] = mandrill
+;dependencies[] = mailsystem
+;dependencies[] = mandrill
+
 ;dependencies[] = mandrill_reports
 ;dependencies[] = mandrill_template
 ;dependencies[] = mandrill_activity
