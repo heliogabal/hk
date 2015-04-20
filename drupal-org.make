@@ -129,7 +129,7 @@ projects[media_youtube][version] = "2.0-rc1"
 
 projects[plupload][version] = "1.7"
 
-projects[message][version] = "1.9"
+projects[message][version] = "1.10"
 
 ;projects[migrate][version] = "2.7"
 
