@@ -106,7 +106,7 @@ function hk_install() {
   // Update the menu router information.
   menu_rebuild();
   // revert features to ensure they are all installed
-   // $features = array(
+    $features = array(
     // 'bear_habitat',
     // 'bear_necessities',
     // 'bear_user',
@@ -117,11 +117,12 @@ function hk_install() {
      // 'hk_ct_object',
      // 'hk_ct_apart',
      // 'hk_ct_page',
-     // 'hk_search'//,
-     //'hk_admin'//,
-     // 'hk_translations'
-   // );
-   // features_revert($features);
+      'hk_ct',
+      'hk_search',
+     'hk_admin',
+      'hk_translations'
+    );
+    features_revert($features);
   // ignore any rebuild messages
   node_access_needs_rebuild(FALSE);
   // ignore any other install messages
