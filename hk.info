@@ -264,6 +264,13 @@ dependencies[] = views_pdf
 ;dependencies[] = php_filter
 dependencies[] = views_ui
 
+; Workflow
+; dependencies[] = workflow
+; dependencies[] = workflowfield
+
+; dependencies[] = cer
+; dependencies[] = elements
+
 ; XML sitemap
 dependencies[] = xmlsitemap
 

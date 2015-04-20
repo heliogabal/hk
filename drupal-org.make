@@ -238,8 +238,6 @@ projects[strongarm][version] = "2.0"
 
 projects[styleguide][version] = "1.1"
 
-projects[table_element][version] = 1.0-beta1
-
 projects[taxonomy_manager][version] = "1.0"
 
 projects[title][version] = "1.0-alpha7"
@@ -346,6 +344,10 @@ projects[cer][version] = 3.x-dev
 projects[cer][patch][] = "https://www.drupal.org/files/issues/cer-2373761-entity_api_exception-6.patch"
 ; only for dev, experimental
 projects[cer][patch][] = "https://www.drupal.org/files/issues/cer-entity_save.patch"
+
+;projects[table_element][version] = 1.0-beta1
+; replacement for cer dev
+projects[elements][version] = 1.4
 
 ;projects[entityreference_feeds][version] = "1.0-beta2"
 projects[entityreference_feeds][version] = "1.x-dev"
