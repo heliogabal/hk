@@ -569,11 +569,11 @@ libraries[fontawesome][directory_name] = "fontawesome"
 libraries[fontawesome][destination] = "libraries"
 
 ; SimplePie RSS parser for feeds
-libraries[simplepie][directory_name] = simplepie
-libraries[simplepie][download][type] = get
-libraries[simplepie][download][url] = http://simplepie.org/downloads/simplepie_1.3.1.compiled.php
-libraries[simplepie][copy_file][] = simplepie.compiled.php
-libraries[simplepie][overwrite] = TRUE
+;libraries[simplepie][directory_name] = simplepie
+;libraries[simplepie][download][type] = get
+;libraries[simplepie][download][url] = http://simplepie.org/downloads/simplepie_1.3.1.compiled.php
+;libraries[simplepie][copy_file][] = simplepie.compiled.php
+;libraries[simplepie][overwrite] = TRUE
 
 ; jQuery imagesLoaded for equalheights
 libraries[imagesloaded][download][type] = file
@@ -582,10 +582,10 @@ libraries[imagesloaded][download][subtree] = imagesloaded-2.1.2
 libraries[imagesloaded][directory_name] = "imagesloaded"
 libraries[imagesloaded][destination] = "libraries"
 
-libraries[mailchimp][download][type] = "get"
-libraries[mailchimp][download][url] = "http://apidocs.mailchimp.com/api/downloads/mailchimp-api-class.zip"
-libraries[mailchimp][directory_name] = "mailchimp"
-libraries[mailchimp][destination] = "libraries"
+;libraries[mailchimp][download][type] = "get"
+;libraries[mailchimp][download][url] = "http://apidocs.mailchimp.com/api/downloads/mailchimp-api-class.zip"
+;libraries[mailchimp][directory_name] = "mailchimp"
+;libraries[mailchimp][destination] = "libraries"
 
 ; mandrill
 libraries[mandrill][download][type] = "get"
@@ -609,4 +609,4 @@ libraries[select2][directory_name] = "select2"
 libraries[select2][destination] = "libraries"
 
 ; +++++ Translations +++++
-translations[] = de
+;translations[] = de
