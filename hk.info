@@ -90,14 +90,14 @@ dependencies[] = feeds
 dependencies[] = feeds_tamper
 dependencies[] = feeds_tamper_ui
 dependencies[] = feeds_ui
-dependencies[] = entityreference_feeds
+;dependencies[] = entityreference_feeds
 
 ; Fields
 dependencies[] = addressfield
 ;dependencies[] = computed_field
 dependencies[] = field_conditional_state
 dependencies[] = email
-dependencies[] = entityreference
+;dependencies[] = entityreference
 dependencies[] = field_group
 dependencies[] = geofield
 dependencies[] = link
@@ -171,8 +171,9 @@ dependencies[] = breakpoints
 dependencies[] = colorbox
 dependencies[] = colorbox_node
 dependencies[] = diff
-dependencies[] = entity
-dependencies[] = entity_view_mode
+;dependencies[] = entity
+;dependencies[] = entity_view_mode
+; deaktiviert lassen
 ;dependencies[] = entity_tokens
 dependencies[] = equalheights
 dependencies[] = geocoder
@@ -196,7 +197,7 @@ dependencies[] = menu_block
 dependencies[] = pathauto
 dependencies[] = redirect
 dependencies[] = robotstxt
-dependencies[] = rules
+;dependencies[] = rules
 ;dependencies[] = rules_ui
 dependencies[] = strongarm
 ;dependencies[] = styleguide
@@ -268,6 +269,10 @@ dependencies[] = views_fluid_grid
 dependencies[] = views_pdf
 ;dependencies[] = php_filter
 dependencies[] = views_ui
+
+; Workflow
+; dependencies[] = workflow
+; dependencies[] = workflowfield
 
 ; XML sitemap
 dependencies[] = xmlsitemap

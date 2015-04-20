@@ -569,11 +569,11 @@ libraries[fontawesome][directory_name] = "fontawesome"
 libraries[fontawesome][destination] = "libraries"
 
 ; SimplePie RSS parser for feeds
-libraries[simplepie][directory_name] = simplepie
-libraries[simplepie][download][type] = get
-libraries[simplepie][download][url] = http://simplepie.org/downloads/simplepie_1.3.1.compiled.php
-libraries[simplepie][copy_file][] = simplepie.compiled.php
-libraries[simplepie][overwrite] = TRUE
+;libraries[simplepie][directory_name] = simplepie
+;libraries[simplepie][download][type] = get
+;libraries[simplepie][download][url] = http://simplepie.org/downloads/simplepie_1.3.1.compiled.php
+;libraries[simplepie][copy_file][] = simplepie.compiled.php
+;libraries[simplepie][overwrite] = TRUE
 
 ; jQuery imagesLoaded for equalheights
 libraries[imagesloaded][download][type] = file
