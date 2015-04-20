@@ -239,6 +239,8 @@ projects[strongarm][version] = "2.0"
 projects[styleguide][version] = "1.1"
 
 projects[table_element][version] = 1.0-beta1
+; use this instead of table_element for cer dev
+projects[elements][version] = 1.4
 
 projects[taxonomy_manager][version] = "1.0"
 

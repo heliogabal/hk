@@ -274,6 +274,10 @@ dependencies[] = views_ui
 ; dependencies[] = workflow
 ; dependencies[] = workflowfield
 
+; Problematic
+; dependencies[] = cer
+; dependencies[] = table_element
+
 ; XML sitemap
 dependencies[] = xmlsitemap
 
