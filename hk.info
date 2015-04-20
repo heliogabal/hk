@@ -2,7 +2,7 @@
 name = "hk"
 ;old_short_name = Bear
 description = "Install Profile for Herbert & Kohlmeyer"
-exclusive = "1"
+;exclusive = "1"
 core = "7.x"
 ; ----------
 ; Abhängigkeiten
@@ -14,6 +14,8 @@ dependencies[] = adminimal_admin_menu
 dependencies[] = block_class
 dependencies[] = module_filter
 dependencies[] = fpa
+dependencies[] = strongarm
+dependencies[] = token
 
 ; UX
 dependencies[] = compact_forms
@@ -92,25 +94,25 @@ dependencies[] = ds_forms
 ;dependencies[] = entityreference_feeds
 
 ; Fields
-dependencies[] = addressfield
+;dependencies[] = addressfield
 ;dependencies[] = computed_field
 dependencies[] = field_conditional_state
-dependencies[] = email
+;dependencies[] = email
 ;dependencies[] = entityreference
 dependencies[] = field_group
-dependencies[] = geofield
-dependencies[] = link
-dependencies[] = name
-dependencies[] = phone
+;dependencies[] = geofield
+;dependencies[] = link
+;dependencies[] = name
+;dependencies[] = phone
 
 ; Flags
-dependencies[] = flag
+;dependencies[] = flag
 ;dependencies[] = flag_actions
 
 ; FlexSlider
-dependencies[] = flexslider
-dependencies[] = flexslider_fields
-dependencies[] = flexslider_views
+;dependencies[] = flexslider
+;dependencies[] = flexslider_fields
+;dependencies[] = flexslider_views
 
 ; Image
 ;dependencies[] = manualcrop
@@ -124,6 +126,7 @@ dependencies[] = flexslider_views
 
 ; Media
 dependencies[] = file_entity
+dependencies[] = linkit
 dependencies[] = media
 ;dependencies[] = media_bulk_upload
 ;dependencies[] = media_internet
@@ -166,24 +169,23 @@ dependencies[] = translation_helpers
 
 ; Other
 ;dependencies[] = breadcrumbs_by_path
-dependencies[] = breakpoints
-dependencies[] = colorbox
-dependencies[] = colorbox_node
+;dependencies[] = breakpoints
+;dependencies[] = colorbox
+;dependencies[] = colorbox_node
 ;dependencies[] = entity
 ;dependencies[] = entity_view_mode
 ; deaktiviert lassen
 ;dependencies[] = entity_tokens
-dependencies[] = equalheights
-dependencies[] = geocoder
-dependencies[] = geophp
+;dependencies[] = equalheights
+;dependencies[] = geocoder
+;dependencies[] = geophp
 ;dependencies[] = habitat
 dependencies[] = hreflang
 dependencies[] = icon
 dependencies[] = icon_menu
 dependencies[] = fontello
-dependencies[] = job_scheduler
-dependencies[] = libraries
-dependencies[] = linkit
+;dependencies[] = job_scheduler
+;dependencies[] = libraries
 ;dependencies[] = mailsystem
 ;dependencies[] = mandrill
 
@@ -192,22 +194,20 @@ dependencies[] = linkit
 ;dependencies[] = mandrill_activity
 dependencies[] = menu_block
 ;dependencies[] = multiform
-dependencies[] = pathauto
-dependencies[] = redirect
 ;dependencies[] = robotstxt
 ;dependencies[] = rules
 ;dependencies[] = rules_ui
-dependencies[] = strongarm
 ;dependencies[] = styleguide
-dependencies[] = token
 ;dependencies[] = translation_table
-dependencies[] = transliteration
 
 ; Panels
 ;dependencies[] = panels
 
 ; Path management
 dependencies[] = globalredirect
+dependencies[] = pathauto
+dependencies[] = redirect
+dependencies[] = transliteration
 
 ; Performance and scalability
 ;dependencies[] = entitycache
@@ -216,8 +216,8 @@ dependencies[] = globalredirect
 ;dependencies[] = httprl
 
 ; Picture
-dependencies[] = flexslider_picture
-dependencies[] = picture
+;dependencies[] = flexslider_picture
+;dependencies[] = picture
 
 ; Relation
 ;dependencies[] = relation
