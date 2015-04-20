@@ -36,6 +36,8 @@ projects[better_formats][version] = "1.0-beta1"
 
 ;projects[cer][version] = 3.0-alpha7
 ;projects[cer][patch][] = "https://www.drupal.org/files/issues/2331553-cer_left_exception-1.patch"
+; DAS WAR DAS ARSCHLOCH!
+projects[cer][patch][] = "https://www.drupal.org/files/issues/cer-2373761-entity_api_exception-6.patch"
 
 projects[crm_core][version] = "0.980"
 
