@@ -60,8 +60,6 @@ projects[format_number][version] = "1.x-dev"
 
 projects[entityreference_prepopulate][version] = "1.5"
 
-projects[feeds][version] = "2.0-alpha8"
-
 projects[feeds_tamper][version] = "1.0"
 
 projects[feeds_xpathparser][version] = "1.0"
@@ -336,6 +334,11 @@ projects[webform][version] = "4.7"
 projects[xmlsitemap][version] = "2.2"
 
 ; Problematic Versions
+
+;projects[feeds][version] = "2.0-alpha8"
+; see empty field behavior change in dev for later debugging https://www.drupal.org/node/1107522
+projects[feeds][version] = "2.x-dev"
+
 ;projects[cer][version] = 3.0-alpha7
 projects[cer][version] = 3.x-dev
 ;projects[cer][patch][] = "https://www.drupal.org/files/issues/2331553-cer_left_exception-1.patch"
