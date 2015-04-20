@@ -142,7 +142,7 @@ projects[entity_translation][version] = "1.0-beta4"
 projects[tmgmt][version] = 1.0-rc1
 
 projects[i18n][version] = "1.12"
-# Translate Field Pre- and Suffix, not passing tests: https://www.drupal.org/node/1221208
+; Translate Field Pre- and Suffix, not passing tests: https://www.drupal.org/node/1221208
 ;projects[i18n][patch][] = "https://www.drupal.org/files/issues/i18n_field-i18n_field-should-translate-prefix-suffix-of-number-fields-1221208-41.patch"
 ; install error patch https://www.drupal.org/node/1681414
 projects[i18n][patch][] = "https://www.drupal.org/files/static_reset.patch"
@@ -379,33 +379,33 @@ projects[rules][patch][] = "https://www.drupal.org/files/issues/rules_i18n-undef
 
 ; +++++ Features +++++
 
-# ;hk_base
-# projects[hk_base][type] = module
-# projects[hk_base][download][type] = "git"
-# projects[hk_base][download][url] = "https://github.com/heliogabal/hk_base.git"
-# projects[hk_base][subdir] = "features"
-# projects[hk_base][options][working-copy] = TRUE
+; ;hk_base
+; projects[hk_base][type] = module
+; projects[hk_base][download][type] = "git"
+; projects[hk_base][download][url] = "https://github.com/heliogabal/hk_base.git"
+; projects[hk_base][subdir] = "features"
+; projects[hk_base][options][working-copy] = TRUE
 
-# ;hk_ct_object
-# projects[hk_ct_object][type] = module
-# projects[hk_ct_object][download][type] = "git"
-# projects[hk_ct_object][download][url] = "https://github.com/heliogabal/hk_ct_object.git"
-# projects[hk_ct_object][subdir] = "features"
-# projects[hk_ct_object][options][working-copy] = TRUE
+; ;hk_ct_object
+; projects[hk_ct_object][type] = module
+; projects[hk_ct_object][download][type] = "git"
+; projects[hk_ct_object][download][url] = "https://github.com/heliogabal/hk_ct_object.git"
+; projects[hk_ct_object][subdir] = "features"
+; projects[hk_ct_object][options][working-copy] = TRUE
 
-# ;hk_ct_apart
-# projects[hk_ct_apart][type] = module
-# projects[hk_ct_apart][download][type] = "git"
-# projects[hk_ct_apart][download][url] = "https://github.com/heliogabal/hk_ct_apart.git"
-# projects[hk_ct_apart][subdir] = "features"
-# projects[hk_ct_apart][options][working-copy] = TRUE
+; ;hk_ct_apart
+; projects[hk_ct_apart][type] = module
+; projects[hk_ct_apart][download][type] = "git"
+; projects[hk_ct_apart][download][url] = "https://github.com/heliogabal/hk_ct_apart.git"
+; projects[hk_ct_apart][subdir] = "features"
+; projects[hk_ct_apart][options][working-copy] = TRUE
 
-# ;hk_ct_page
-# projects[hk_ct_page][type] = module
-# projects[hk_ct_page][download][type] = "git"
-# projects[hk_ct_page][download][url] = "https://github.com/heliogabal/hk_ct_page.git"
-# projects[hk_ct_page][subdir] = "features"
-# projects[hk_ct_page][options][working-copy] = TRUE
+; ;hk_ct_page
+; projects[hk_ct_page][type] = module
+; projects[hk_ct_page][download][type] = "git"
+; projects[hk_ct_page][download][url] = "https://github.com/heliogabal/hk_ct_page.git"
+; projects[hk_ct_page][subdir] = "features"
+; projects[hk_ct_page][options][working-copy] = TRUE
 
 ;hk_ct
 projects[hk_ct][type] = module
