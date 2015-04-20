@@ -34,11 +34,6 @@ projects[better_exposed_filters][version] = 3.2
 
 projects[better_formats][version] = "1.0-beta1"
 
-;projects[cer][version] = 3.0-alpha7
-;projects[cer][patch][] = "https://www.drupal.org/files/issues/2331553-cer_left_exception-1.patch"
-; DAS WAR DAS ARSCHLOCH! https://www.drupal.org/node/2373761
-projects[cer][patch][] = "https://www.drupal.org/files/issues/cer-2373761-entity_api_exception-6.patch"
-
 projects[crm_core][version] = "0.980"
 
 projects[crm_core_profile][version] = "1.0-beta10"
@@ -63,11 +58,7 @@ projects[features_extra][version] = "1.0-beta1"
 
 projects[format_number][version] = "1.x-dev"
 
-projects[entityreference_feeds][version] = "1.0-beta2"
-
 projects[entityreference_prepopulate][version] = "1.5"
-
-projects[feeds][version] = "2.0-alpha8"
 
 projects[feeds_tamper][version] = "1.0"
 
@@ -89,8 +80,6 @@ projects[dhtml_menu][version] = "1.x-dev"
 
 projects[email][version] = "1.3"
 
-projects[entityreference][version] = "1.1"
-projects[entityreference][patch][] = "https://www.drupal.org/files/no-label-ref-found-1943300-1.patch"
 
 projects[references_dialog] = "1.0-beta1"
 ; https://www.drupal.org/node/2375741
@@ -190,19 +179,11 @@ projects[colorbox_node][version] = "3.5"
 
 projects[diff][version] = "3.2"
 
-projects[entity][version] = "1.6"
-; https://www.drupal.org/node/2241979
-projects[entity][patch][] = "https://www.drupal.org/files/issues/entity_defaults_rebuild-2241979-19_0.patch"
-
 ;projects[entity2text][version] = "1.0-alpha2"
 
 projects[entity_view_mode][version] = "1.0-rc1"
 
 ;projects[entityform][version] = "2.0-rc1"
-
-projects[entity_rules][version] = "1.0-alpha4"
-; Labels in Features https://www.drupal.org/node/2187363
-projects[entity_rules][patch][] = "https://www.drupal.org/files/issues/entity_rules-2187363-2.patch"
 
 projects[equalheights][version] = "2.4"
 
@@ -235,9 +216,9 @@ projects[libraries][version] = "2.2"
 
 projects[linkit][version] = "2.7"
 
-;projects[mailsystem][version] = "2.34"
+projects[mailsystem][version] = "2.34"
 
-;projects[mandrill][version] = "2.1"
+projects[mandrill][version] = "2.1"
 
 projects[menu_block][version] = "2.5"
 
@@ -252,8 +233,6 @@ projects[pathauto_persist] = 1.3
 projects[redirect][version] = "1.x-dev"
 
 projects[robotstxt][version] = "1.2"
-
-projects[rules][version] = "2.9"
 
 projects[strongarm][version] = "2.0"
 
@@ -315,9 +294,9 @@ projects[facetapi_pretty_paths][version] = "1.4"
 
 projects[facetapi_select][version] = "1.x-dev"
 
-;projects[facetapi_i18n][version] = "1.0-beta2"
+projects[facetapi_i18n][version] = "1.0-beta2"
 ;
-;projects[facetapi_i18n][patch][] = "https://www.drupal.org/files/issues/facetapi_i18n_strings_not_translatable-1403082-13.patch"
+projects[facetapi_i18n][patch][] = "https://www.drupal.org/files/issues/facetapi_i18n_strings_not_translatable-1403082-13.patch"
 
 projects[fontello][version] = "1.0"
 
@@ -354,45 +333,46 @@ projects[webform][version] = "4.7"
 
 projects[xmlsitemap][version] = "2.2"
 
-projects[feeds][version] = "2.0-alpha8"
-; see empty field behavior change in dev for later debugging https://www.drupal.org/node/1107522
-;projects[feeds][version] = "2.x-dev"
+; Problematic Versions
 
-projects[cer][version] = 3.0-alpha7
-;projects[cer][version] = 3.x-dev
+;projects[feeds][version] = "2.0-alpha8"
+; see empty field behavior change in dev for later debugging https://www.drupal.org/node/1107522
+projects[feeds][version] = "2.x-dev"
+
+;projects[cer][version] = 3.0-alpha7
+projects[cer][version] = 3.x-dev
 ;projects[cer][patch][] = "https://www.drupal.org/files/issues/2331553-cer_left_exception-1.patch"
 ; DAS WAR DAS ARSCHLOCH! https://www.drupal.org/node/2373761
 projects[cer][patch][] = "https://www.drupal.org/files/issues/cer-2373761-entity_api_exception-6.patch"
 ; only for dev, experimental
-;projects[cer][patch][] = "https://www.drupal.org/files/issues/cer-entity_save.patch"
+projects[cer][patch][] = "https://www.drupal.org/files/issues/cer-entity_save.patch"
 
-projects[entityreference_feeds][version] = "1.0-beta2"
-;projects[entityreference_feeds][version] = "1.x-dev"
+;projects[entityreference_feeds][version] = "1.0-beta2"
+projects[entityreference_feeds][version] = "1.x-dev"
 ; für Feeds Dev Version nötig: https://www.drupal.org/node/2287149
-;projects[entityreference_feeds][patch][] = "https://www.drupal.org/files/issues/broken_feeds-2287149-6.patch"
+projects[entityreference_feeds][patch][] = "https://www.drupal.org/files/issues/broken_feeds-2287149-6.patch"
 
 projects[entityreference][version] = "1.1"
 projects[entityreference][patch][] = "https://www.drupal.org/files/no-label-ref-found-1943300-1.patch"
 ; experimental
-;projects[entityreference][patch][] = "https://www.drupal.org/files/issues/entityreference_wrapper_property_set-2143171-4.patch"
+projects[entityreference][patch][] = "https://www.drupal.org/files/issues/entityreference_wrapper_property_set-2143171-4.patch"
 
 projects[entity][version] = "1.6"
 ; https://www.drupal.org/node/2241979
-;projects[entity][patch][] = "https://www.drupal.org/files/issues/entity_defaults_rebuild-2241979-19_0.patch"
+projects[entity][patch][] = "https://www.drupal.org/files/issues/entity_defaults_rebuild-2241979-19_0.patch"
 
-projects[entity_rules][version] = "1.0-alpha4"
-;projects[entity_rules][version] = "1.x-dev"
+;projects[entity_rules][version] = "1.0-alpha4"
+projects[entity_rules][version] = "1.x-dev"
 ; Labels in Features https://www.drupal.org/node/2187363
 projects[entity_rules][patch][] = "https://www.drupal.org/files/issues/entity_rules-2187363-2.patch"
 
-projects[workflow][version] = 2.4
-;projects[workflow][version] = 2.x-dev
+;projects[workflow][version] = 2.5
+projects[workflow][version] = 2.x-dev
 
-projects[rules][version] = "2.8"
+projects[rules][version] = "2.9"
 ; Call to undefined method i18n_object_wrapper::get_strings() prevents boa install
 ; https://www.drupal.org/node/2410729
-;projects[rules][patch][] = "https://www.drupal.org/files/issues/rules_i18n-undefined-method-2410729-1.patch"
-
+projects[rules][patch][] = "https://www.drupal.org/files/issues/rules_i18n-undefined-method-2410729-1.patch"
 
 ; +++++ Features +++++
 
