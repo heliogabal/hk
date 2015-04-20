@@ -474,9 +474,9 @@ projects[hk_search][options][working-copy] = TRUE
 ; +++++ Themes +++++
 
 ; bear_skin
-projects[bear_skin][type] = "theme"
-projects[bear_skin][version] = "1.2"
-projects[bear_skin][subdir] = ""
+;projects[bear_skin][type] = "theme"
+;projects[bear_skin][version] = "1.2"
+;projects[bear_skin][subdir] = ""
 
 ; zen
 projects[zen][type] = "theme"
@@ -581,10 +581,10 @@ libraries[imagesloaded][download][subtree] = imagesloaded-2.1.2
 libraries[imagesloaded][directory_name] = "imagesloaded"
 libraries[imagesloaded][destination] = "libraries"
 
-libraries[mailchimp][download][type] = "get"
-libraries[mailchimp][download][url] = "http://apidocs.mailchimp.com/api/downloads/mailchimp-api-class.zip"
-libraries[mailchimp][directory_name] = "mailchimp"
-libraries[mailchimp][destination] = "libraries"
+;libraries[mailchimp][download][type] = "get"
+;libraries[mailchimp][download][url] = "http://apidocs.mailchimp.com/api/downloads/mailchimp-api-class.zip"
+;libraries[mailchimp][directory_name] = "mailchimp"
+;libraries[mailchimp][destination] = "libraries"
 
 ; mandrill
 libraries[mandrill][download][type] = "get"
@@ -608,4 +608,4 @@ libraries[select2][directory_name] = "select2"
 libraries[select2][destination] = "libraries"
 
 ; +++++ Translations +++++
-translations[] = de
+;translations[] = de
