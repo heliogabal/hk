@@ -258,10 +258,6 @@ projects[entitycache][version] = "1.2"
 
 projects[picture][version] = "2.9"
 
-projects[redhen][version] = "1.9"
-
-projects[redhen_lead][version] = "1.0-alpha4"
-
 projects[relation][version] = "1.0-rc7"
 
 projects[search_api][version] = "1.14"
