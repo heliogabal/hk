@@ -295,8 +295,8 @@ projects[facetapi_pretty_paths][version] = "1.4"
 projects[facetapi_select][version] = "1.x-dev"
 
 projects[facetapi_i18n][version] = "1.0-beta2"
-;
-projects[facetapi_i18n][patch][] = "https://www.drupal.org/files/issues/facetapi_i18n_strings_not_translatable-1403082-13.patch"
+; funktioniert nicht mit BOA, von Hand patchen
+;projects[facetapi_i18n][patch][] = "https://www.drupal.org/files/issues/facetapi_i18n_strings_not_translatable-1403082-13.patch"
 
 projects[fontello][version] = "1.0"
 
@@ -350,7 +350,8 @@ projects[cer][patch][] = "https://www.drupal.org/files/issues/cer-entity_save.pa
 ;projects[entityreference_feeds][version] = "1.0-beta2"
 projects[entityreference_feeds][version] = "1.x-dev"
 ; für Feeds Dev Version nötig: https://www.drupal.org/node/2287149
-projects[entityreference_feeds][patch][] = "https://www.drupal.org/files/issues/broken_feeds-2287149-6.patch"
+; funktioniert nicht mit BOA, von Hand patchen
+;projects[entityreference_feeds][patch][] = "https://www.drupal.org/files/issues/broken_feeds-2287149-6.patch"
 
 projects[entityreference][version] = "1.1"
 projects[entityreference][patch][] = "https://www.drupal.org/files/no-label-ref-found-1943300-1.patch"
