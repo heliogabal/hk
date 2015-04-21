@@ -291,6 +291,10 @@ projects[facetapi_pretty_paths][version] = "1.4"
 ;projects[facetapi_tagcloud][version] = "1.0-beta1"
 
 projects[facetapi_select][version] = "1.x-dev"
+; Deselect Selection https://www.drupal.org/node/2336857
+;projects[facetapi_select][patch][] = "https://www.drupal.org/files/issues/facetapi_select-2336857-12.patch"
+; better then deselect patch?
+projects[facetapi_select][patch][] = "https://www.drupal.org/files/issues/facetapi_select-preselect-active-and-reset-2118323-20.patch"
 
 projects[facetapi_i18n][version] = "1.0-beta2"
 ; funktioniert nicht mit BOA, von Hand patchen
