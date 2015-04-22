@@ -582,11 +582,20 @@ libraries[fontawesome][destination] = "libraries"
 ;libraries[simplepie][overwrite] = TRUE
 
 ; jQuery imagesLoaded for equalheights
-libraries[imagesloaded][download][type] = file
-libraries[imagesloaded][download][url] = https://github.com/desandro/imagesloaded/archive/v2.1.2.tar.gz
-libraries[imagesloaded][download][subtree] = imagesloaded-2.1.2
-libraries[imagesloaded][directory_name] = "imagesloaded"
-libraries[imagesloaded][destination] = "libraries"
+libraries[jquery.imagesloaded][download][type] = file
+libraries[jquery.imagesloaded][download][url] = https://github.com/desandro/imagesloaded/archive/v2.1.2.tar.gz
+libraries[jquery.imagesloaded][download][subtree] = imagesloaded-2.1.2
+libraries[jquery.imagesloaded][directory_name] = "jquery.imagesloaded"
+libraries[jquery.imagesloaded][destination] = "libraries"
+
+
+; imgAreaSelect.
+libraries[jquery.imgareaselect][download][type] = file
+libraries[jquery.imgareaselect][download][url] = http://odyniec.net/projects/imgareaselect/jquery.imgareaselect-0.9.10.zip
+libraries[jquery.imgareaselect][download][subtree] = jquery.imgareaselect-0.9.10
+libraries[jquery.imgareaselect][directory_name] = "jquery.imgareaselect"
+libraries[jquery.imgareaselect][destination] = "libraries"
+
 
 ;libraries[mailchimp][download][type] = "get"
 ;libraries[mailchimp][download][url] = "http://apidocs.mailchimp.com/api/downloads/mailchimp-api-class.zip"
