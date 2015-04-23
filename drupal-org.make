@@ -222,6 +222,8 @@ projects[mandrill][version] = "2.1"
 
 projects[menu_block][version] = "2.5"
 
+projects[mobile_detect][version] = "1.x-dev"
+
 projects[multiform][version] = "1.1"
 
 projects[options_element][version] = "1.12"
@@ -596,6 +598,11 @@ libraries[jquery.imgareaselect][download][subtree] = jquery.imgareaselect-0.9.10
 libraries[jquery.imgareaselect][directory_name] = "jquery.imgareaselect"
 libraries[jquery.imgareaselect][destination] = "libraries"
 
+; Mobile_Detect
+libraries[Mobile_Detect][download][type] = file
+libraries[Mobile_Detect][download][url] = "https://github.com/serbanghita/Mobile-Detect/archive/2.8.12.zip"
+libraries[Mobile_Detect][directory_name] = "Mobile_Detect"
+libraries[Mobile_Detect][destination] = "libraries"
 
 ;libraries[mailchimp][download][type] = "get"
 ;libraries[mailchimp][download][url] = "http://apidocs.mailchimp.com/api/downloads/mailchimp-api-class.zip"
