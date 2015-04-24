@@ -68,7 +68,7 @@ projects[fpa][version] = "2.6"
 
 projects[imageapi_optimize][version] = 1.2
 
-projects[addressfield][version] = "1.0"
+projects[addressfield][version] = "1.1"
 
 projects[compact_forms][version] = "1.0"
 
@@ -442,8 +442,14 @@ projects[hk_translations][subdir] = "features"
 projects[hk_translations][options][working-copy] = TRUE
 
 
-
 ; custom modules
+
+; weight_language, experimental, aber gut
+projects[weight_language][download][type] = "git"
+projects[weight_language][download][url] = "http://git.drupal.org/sandbox/jm.federico/1876362.git"
+projects[weight_language][download][branch] = "7.x-1.x"
+projects[weight_language][subdir] = "custom"
+projects[weight_language][options][working-copy] = TRUE
 
 ;hk_exposed_filters
 projects[hk_exposed_filters][type] = module
