@@ -268,9 +268,9 @@ projects[search_api][version] = "1.14"
 
 projects[search_api_ajax][version] = "1.2"
 
-;projects[search_api_db][version] = "1.4"
+projects[search_api_db][version] = "1.4"
 ; Stopped BOA Migrate Fehler https://www.drupal.org/node/2428693
-;projects[search_api_db][patch][] = "https://www.drupal.org/files/issues/entity-type-indhold-doest-specify-a-type-for-the-nid-property-2428693-2.patch"
+projects[search_api_db][patch][] = "https://www.drupal.org/files/issues/entity-type-indhold-doest-specify-a-type-for-the-nid-property-2428693-2.patch"
 
 projects[search_api_location][version] = "2.0-beta2"
 
@@ -445,9 +445,11 @@ projects[hk_translations][options][working-copy] = TRUE
 ; custom modules
 
 ; weight_language, experimental, aber gut
+projects[weight_language][version] = "1.x-dev"
 projects[weight_language][download][type] = "git"
 projects[weight_language][download][url] = "http://git.drupal.org/sandbox/jm.federico/1876362.git"
 projects[weight_language][download][branch] = "7.x-1.x"
+projects[weight_language][download][revision]= "29ba320bb292274080559d4fd2939998c94cbcd9"
 projects[weight_language][subdir] = "custom"
 projects[weight_language][options][working-copy] = TRUE
 
