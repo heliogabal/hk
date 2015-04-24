@@ -242,6 +242,8 @@ projects[styleguide][version] = "1.1"
 
 projects[taxonomy_manager][version] = "1.0"
 
+projects[term_merge][version] = "1.2"
+
 projects[title][version] = "1.0-alpha7"
 
 projects[translation_table][version] = "1.0-beta1"
