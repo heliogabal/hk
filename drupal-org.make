@@ -532,11 +532,17 @@ libraries[flexslider][download][type] = "get"
 libraries[flexslider][download][url] = "https://github.com/woothemes/FlexSlider/archive/version/2.4.0.zip"
 
 ; ColorBox
+;libraries[colorbox][directory_name] = "colorbox"
+;libraries[colorbox][type] = "library"
+;libraries[colorbox][destination] = "libraries"
+;libraries[colorbox][download][type] = "get"
+;libraries[colorbox][download][url] = "https://github.com/jackmoore/colorbox/archive/master.zip"
+
+libraries[colorbox][type] = "libraries"
+libraries[colorbox][download][type] = "file"
+libraries[colorbox][download][url] = "https://github.com/jackmoore/colorbox/archive/1.x.zip"
 libraries[colorbox][directory_name] = "colorbox"
-libraries[colorbox][type] = "library"
 libraries[colorbox][destination] = "libraries"
-libraries[colorbox][download][type] = "get"
-libraries[colorbox][download][url] = "https://github.com/jackmoore/colorbox/archive/master.zip"
 
 ; Plupload
 libraries[plupload][directory_name] = "plupload"
