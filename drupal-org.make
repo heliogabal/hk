@@ -369,6 +369,8 @@ projects[entityreference][patch][] = "https://www.drupal.org/files/issues/entity
 projects[entity][version] = "1.6"
 ; https://www.drupal.org/node/2241979
 projects[entity][patch][] = "https://www.drupal.org/files/issues/entity_defaults_rebuild-2241979-19_0.patch"
+; https://www.drupal.org/node/2112755
+projects[entity][patch][] = "https://www.drupal.org/files/issues/entity-label-2112755-25.patch"
 
 ;projects[entity_rules][version] = "1.0-alpha4"
 projects[entity_rules][version] = "1.x-dev"
@@ -476,11 +478,11 @@ projects[hk_flexslider][subdir] = "custom"
 projects[hk_flexslider][options][working-copy] = TRUE
 
 ;hk_search
-projects[hk_search][type] = module
-projects[hk_search][download][type] = "git"
-projects[hk_search][download][url] = "https://github.com/heliogabal/hk_search.git"
-projects[hk_search][subdir] = "custom"
-projects[hk_search][options][working-copy] = TRUE
+;projects[hk_search][type] = module
+;projects[hk_search][download][type] = "git"
+;projects[hk_search][download][url] = "https://github.com/heliogabal/hk_search.git"
+;projects[hk_search][subdir] = "custom"
+;projects[hk_search][options][working-copy] = TRUE
 
 ;ip_geoloc_patched
 ;projects[ip_geoloc][type] = module
@@ -640,4 +642,4 @@ libraries[select2][directory_name] = "select2"
 libraries[select2][destination] = "libraries"
 
 ; +++++ Translations +++++
-;translations[] = de
+translations[] = de
