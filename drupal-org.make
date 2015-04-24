@@ -445,6 +445,7 @@ projects[hk_translations][options][working-copy] = TRUE
 ; custom modules
 
 ; weight_language, experimental, aber gut
+projects[weight_language][type] = "module"
 projects[weight_language][version] = "1.x-dev"
 projects[weight_language][download][type] = "git"
 projects[weight_language][download][url] = "http://git.drupal.org/sandbox/jm.federico/1876362.git"
