@@ -250,6 +250,8 @@ projects[translation_table][version] = "1.0-beta1"
 
 projects[token][version] = "1.6"
 
+projects[token_tweaks] = "1.x-dev"
+
 projects[transliteration][version] = "3.2"
 
 ;projects[panels][version] = "3.5"
@@ -332,6 +334,8 @@ projects[views_bulk_operations][version] = "3.2"
 projects[views_flag_refresh][version] = "1.3"
 
 projects[views_fluid_grid][version] = "3.0"
+
+projects[views_litepager][version] = "3.0"
 
 projects[views_pdf][version] = "1.4"
 
