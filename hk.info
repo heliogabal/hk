@@ -4,6 +4,7 @@ name = "hk"
 description = "Install Profile for Herbert & Kohlmeyer"
 exclusive = "1"
 core = "7.x"
+files[] = hk.profile
 ; ----------
 ; Abhängigkeiten
 ; ----------

@@ -142,7 +142,7 @@ projects[entity_translation][version] = "1.0-beta4"
 projects[tmgmt][version] = 1.0-rc1
 
 projects[i18n][version] = "1.12"
-# Translate Field Pre- and Suffix, not passing tests: https://www.drupal.org/node/1221208
+; Translate Field Pre- and Suffix, not passing tests: https://www.drupal.org/node/1221208
 ;projects[i18n][patch][] = "https://www.drupal.org/files/issues/i18n_field-i18n_field-should-translate-prefix-suffix-of-number-fields-1221208-41.patch"
 ; install error patch https://www.drupal.org/node/1681414
 projects[i18n][patch][] = "https://www.drupal.org/files/static_reset.patch"
@@ -325,7 +325,7 @@ projects[views][patch][] = "https://www.drupal.org/files/issues/views-ajax-nginx
 ;Needed for views selective filters
 ;projects[views][patch][] = "https://www.drupal.org/files/issues/aggregation_not_working-2159347-87.patch"
 ;Geofield Search API bug
-https://www.drupal.org/files/issues/2115269-views_handler_field_field_get_value_fatal_error_clone_method_called_on_non_object-5.patch
+projects[views][patch][] = https://www.drupal.org/files/issues/2115269-views_handler_field_field_get_value_fatal_error_clone_method_called_on_non_object-5.patch
 
 projects[views_accelerator][version] = "1.0-beta1"
 
@@ -393,33 +393,33 @@ projects[rules][patch][] = "https://www.drupal.org/files/issues/rules_i18n-undef
 
 ; +++++ Features +++++
 
-# ;hk_base
-# projects[hk_base][type] = module
-# projects[hk_base][download][type] = "git"
-# projects[hk_base][download][url] = "https://github.com/heliogabal/hk_base.git"
-# projects[hk_base][subdir] = "features"
-# projects[hk_base][options][working-copy] = TRUE
+; ;hk_base
+; projects[hk_base][type] = module
+; projects[hk_base][download][type] = "git"
+; projects[hk_base][download][url] = "https://github.com/heliogabal/hk_base.git"
+; projects[hk_base][subdir] = "features"
+; projects[hk_base][options][working-copy] = TRUE
 
-# ;hk_ct_object
-# projects[hk_ct_object][type] = module
-# projects[hk_ct_object][download][type] = "git"
-# projects[hk_ct_object][download][url] = "https://github.com/heliogabal/hk_ct_object.git"
-# projects[hk_ct_object][subdir] = "features"
-# projects[hk_ct_object][options][working-copy] = TRUE
+; ;hk_ct_object
+; projects[hk_ct_object][type] = module
+; projects[hk_ct_object][download][type] = "git"
+; projects[hk_ct_object][download][url] = "https://github.com/heliogabal/hk_ct_object.git"
+; projects[hk_ct_object][subdir] = "features"
+; projects[hk_ct_object][options][working-copy] = TRUE
 
-# ;hk_ct_apart
-# projects[hk_ct_apart][type] = module
-# projects[hk_ct_apart][download][type] = "git"
-# projects[hk_ct_apart][download][url] = "https://github.com/heliogabal/hk_ct_apart.git"
-# projects[hk_ct_apart][subdir] = "features"
-# projects[hk_ct_apart][options][working-copy] = TRUE
+; ;hk_ct_apart
+; projects[hk_ct_apart][type] = module
+; projects[hk_ct_apart][download][type] = "git"
+; projects[hk_ct_apart][download][url] = "https://github.com/heliogabal/hk_ct_apart.git"
+; projects[hk_ct_apart][subdir] = "features"
+; projects[hk_ct_apart][options][working-copy] = TRUE
 
-# ;hk_ct_page
-# projects[hk_ct_page][type] = module
-# projects[hk_ct_page][download][type] = "git"
-# projects[hk_ct_page][download][url] = "https://github.com/heliogabal/hk_ct_page.git"
-# projects[hk_ct_page][subdir] = "features"
-# projects[hk_ct_page][options][working-copy] = TRUE
+; ;hk_ct_page
+; projects[hk_ct_page][type] = module
+; projects[hk_ct_page][download][type] = "git"
+; projects[hk_ct_page][download][url] = "https://github.com/heliogabal/hk_ct_page.git"
+; projects[hk_ct_page][subdir] = "features"
+; projects[hk_ct_page][options][working-copy] = TRUE
 
 ;hk_ct
 projects[hk_ct][type] = module
@@ -460,6 +460,7 @@ projects[weight_language][download][url] = "http://git.drupal.org/sandbox/jm.fed
 projects[weight_language][download][branch] = "7.x-1.x"
 projects[weight_language][download][revision]= "29ba320bb292274080559d4fd2939998c94cbcd9"
 projects[weight_language][subdir] = "custom"
+projects[weight_language][directory_name] = "weight_language"
 projects[weight_language][options][working-copy] = TRUE
 
 ;hk_exposed_filters
@@ -558,7 +559,7 @@ libraries[plupload][download][url] = "https://github.com/moxiecode/plupload/arch
 libraries[plupload][patch][1903850] = "http://drupal.org/files/issues/plupload-1_5_8-rm_examples-1903850-21.patch"
 
 ; manualcrop
-includes[manualcrop] = http://cgit.drupalcode.org/manualcrop/tree/manualcrop.make
+;includes[manualcrop] = http://cgit.drupalcode.org/manualcrop/tree/manualcrop.make
 
 ; leaflet
 libraries[leaflet][directory_name] = "leaflet"
